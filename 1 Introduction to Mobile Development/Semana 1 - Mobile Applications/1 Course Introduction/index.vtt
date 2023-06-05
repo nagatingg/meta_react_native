@@ -1,0 +1,70 @@
+Introduction to mobile development
+
+Introdução de como funciona um ambiente de desenvolvimento móvel multiplataforma
+
+Mobibile development
+    Applications that run on multiple mobile operating systems
+    > Área de desenvolvimento para aplicativos integrados que podem ser executados
+        em vários sistemas operacionais móveis.
+
+Project App
+    Phone App ou Web App
+    Phone App > aplicativos executado no telefone, que foi instalado.
+    Web app > executado via navegador ou por algum outro método online
+
+Usando como exemplo um app para produtividade
+
+------------------- Introduction to the course
+
+-Productivity tracker
+    Permite que o usuário comercial planeje sua programação.
+    Como datas, horários, compromissos, etc
+
+-Task lists
+Ele incluirá uma lista de tarefas com classificações de prioridade, como baixa,
+    média e alta.
+
+-Priority ratings
+
+-Sync with apps > sincronização com outros aplicativos, como calendarios, etc
+
+-Multiple views 
+    Várias exeibições de tela são necessárias
+
+-Filtering content
+    Clima para filtrar as tarefas e compromissos por vários critérios
+
+Disponibilidade para IOS e Android
+
+------
+
+Alguns desafios em um projeto de aplicativo de produtividade são:
+
+Project challenges
+    Cross-platform compatibility > compatibilidade entre plataformas
+
+    User interface design > design de interface do usuário
+
+    Programming > programa no código que inclui teste e depuração
+
+    Coneecting > conexão e sincronização com aplicativos e ferramentas de terceiros.
+
+-----
+
+Interconnected network
+    Web browsers
+    Websites
+    Web pages
+
+Diferentes plataformas
+    IOS > ANDROID > WINDOWS
+
+Native development > React
+
+----------------Web and mobile developer roles
+
+
+
+
+
+
