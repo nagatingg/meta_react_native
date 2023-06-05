@@ -63,8 +63,158 @@ Native development > React
 
 ----------------Web and mobile developer roles
 
+Build cross-platform apps
+    Os desenvolvedores de plataforma cruzada criam aplicativos de software
+        compatíveis com vários sistemas operacionais e atualmente há uma escassez de
+        desenvolvedores de aplicativos especializados.
 
+Common tasks and responsibilities
+    Que tipo de coisas um desenvolvedor multiplaforma faz?
 
+Writing code >  código limpo, legível e sem erros quando o objetivo é criar aplicativos
+    compatíveis com vários sistemas operacionais.
 
+Fixing bugs > performance and user experience
+
+Development > creating and upgrading
+    > Desenvolvimento de novos recursos de aplicativo e nova interface do usuário ou
+        interfaces de usuário para o aplicativo.
+
+Monitoring > performance analysis
+
+----OUTRAS >
+
+Integrating APIs > Outras tarefas comuns entre plataformas incluem a integração de
+    tecnologias de terceiros, como interfaces de programas de aplicativos ou APIs para
+    conectar o aplicativo a outras tecnologias ou códigos.
+
+Writing tests
+
+Releasing apps
+
+Uploading updates
+
+---
+
+Languages and skills
+
+-Framework > tools to develop software applications
+    Framework é uma estrutura de plataforma que fornece a base e as ferramentas
+    para desenvolver aplicativos de software.
+
+Exemplos:
+React Native > utiliza JavaScript
+
+Flutter > utiliza Dart do Google
+
+Xamarin > é construído usando a linguagem C# (C-Sharp)
+
+Além da linguagem associada ao framework, uma linguagem de desenvolvimento pode
+    estar relacionada a plataformas específicas.
+
+Android > Java and Kotlin
+
+iOS > Objetive-C and Swift
+
+-Teamwork
+    Os desenvolvedores geralmente trabalham como parte de uma equipe que pode
+        incluir outros desenvolvedores, gerentes de projeto, profissioansi de
+        controle de qualidade e designers.
+
+Ferramentas que facilitam a integração com a equipe
+    Slack / Zoom / Jira
+
+-Opções de trabalham com desenvolvimento de multiplataforma
+    Small companies > principalmente startups
+    Large companies
+    Agencies
+    Freelancing
+    High-demand 
+
+--------------------A day in the life of a mobile developer
+
+Sara Park - Software Engineer at Meta
+    > Conta sua rotina de trabalho
+
+What do you find most challenging about your role?
+    Uma das coisas mais desafiadoras como desenvolvedor móvel, é que você precisa
+    estar ciente do tamanho do aplicativo. Isso significa que qualquer código que
+    você criar, qualquer função que adicionar, precisa ser o mais conciso possível.
+
+    Percebi que bons engenheiros são capazes de desenvolver bem a interface do usuário,
+    mas excelentes engenheiros realmente entendem o que está acontecendo nos bastidores
+    para que possam depurar oficialmente um problema.
+
+--------Course syllabus - Ementa do curso
+Pré-requisitos 
+    Para fazer este curso, você não precisa de nenhuma experiência em desenvolvimento
+    móvel, mas você deve estar ansioso para começar com a codificação. 
+
+-Módulo 1  
+Neste módulo, você receberá uma introdução ao curso e abordará algumas funções que
+    você pode querer seguir como desenvolvedor web ou móvel. Você também aprenderá dicas
+    sobre como fazer este curso com sucesso e explorará uma demonstração do projeto final.
+    Como introdução, você aprenderá o básico de como a internet e as páginas da web
+    funcionam. Da mesma forma, você ganhará algum conhecimento de servidores e navegadores
+    da web. A seguir, você explorará a evolução dos aplicativos móveis e se concentrará
+    nas plataformas e linguagens de programação iOS e Android. Em seguida, você se
+    concentrará no JavaScript e aprenderá por que ele é chamado de linguagem da web.
+    Finalmente, você examinará as diferenças entre navegadores web e móveis e descobrirá
+    por que é importante criar sites responsivos. 
+
+-Módulo 2
+No módulo 2, você começará com Hypertext Markup Language. Você aprenderá a criar um 
+    documento HTML, usar tags simples e vincular documentos para criar um site. Você 
+    também abordará a acessibilidade da Web e aprenderá o que é o Modelo de Objeto de 
+    Documento, ou DOM, e como ele é usado com JavaScript para consultar e atualizar 
+    páginas da Web. Em seguida, você explorará como usar folhas de estilos em cascata, 
+    ou CSS, para estilizar páginas da Web. Você aprenderá a selecionar e estilizar 
+    elementos, usar texto, cor e alinhamento para criar páginas da Web visualmente 
+    atraentes que oferecem uma ótima experiência ao usuário. 
+
+-Finalmente, você explorará as ferramentas que os desenvolvedores usam no Google 
+    Chrome para tornar seu trabalho mais eficiente. Você também abordará o que é um 
+    Ambiente de Desenvolvimento Integrado, ou IDE, identificará os benefícios que ele 
+    traz para um desenvolvedor e aprenderá sobre algumas das ferramentas de 
+    desenvolvimento mais comuns. 
+
+-Módulo 3
+No terceiro módulo, você abordará o React e o React Native. Você começará a explorar
+    o desenvolvimento móvel multiplataforma e os prós e contras de usar essa abordagem. 
+    Em seguida, você aprenderá o que é um emulador e o que eles fazem para ajudar os 
+    desenvolvedores. Além disso, você aprenderá sobre aplicativos de página única e as 
+    diferenças entre conteúdo estático e dinâmico. Em seguida, você se concentrará no 
+    React e em como ele funciona. Finalmente, você abordará o DOM virtual, a hierarquia 
+    de componentes e outras bibliotecas JavaScript comumente usadas com o React. 
+    Finalmente, você explorará o React Native, seus benefícios e aprenderá por que 
+    a Meta criou o React Native. 
+
+-Módulo 4 
+No último módulo, você terá a oportunidade de recapitular o que aprendeu no curso e 
+    colocá-lo em prática criando e estilizando uma página web. 
+
+-------O que você será capaz de desenvolver
+O projeto é baseado em um aplicativo móvel totalmente responsivo para o restaurante 
+    Little Limão. 
+
+Você mesmo criará este aplicativo móvel no React e usará todas as excelentes 
+    ferramentas disponíveis.
+
+Você aprenderá e praticará como construir o aplicativo de pedidos de comida Little 
+    Limão. O aplicativo incluirá os seguintes elementos:
+
+Uma tela inicial com informações básicas sobre o restaurante.
+
+Um fluxo de integração que solicita que novos usuários insiram seus dados pessoais.
+
+Uma tela de perfil que contém os dados inseridos durante a integração, 
+    que podem ser atualizados e também limpos após o logout.
+
+Um fluxo de navegação que permite que os usuários se movam entre telas.
+
+Dados para os itens de menu que são armazenados, recuperados e 
+    filtrados para serem exibidos corretamente.
+
+O projeto deve ser comprometido com um repositório remoto.
 
 
