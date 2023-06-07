@@ -38,10 +38,70 @@ JavaScript > é exatamente o negócio
 JavaScript é a força motrix de uma página da web. Ele tem a capacidade de manipular o
     conteúdo que você vê na tela enquanto interage com ele.
 
-Renderização de página
+Page rendering > Renderização de página
     Quando uma cópia da página da web é enviada do servidor da Web para o navegador
         do usuário, cada linha de código é processada em ordem sequencial, da primeira
-        à última.
+        à última. Conforme cada linha é interpretada, o navegador cria os blocos de
+        construção, que é a representação visual que você vê na tela.
+    
+    Representação:
+
+    Device ---------------------------------- Web server
+                <-----------------------
+                   Complete web page
+
+-What is a web server and how does it work? - O que é um servidor web e como ele funciona?
+
+Um servidor é um computador que executa aplicativos e serviços que variam de sites a
+    mensagens instantâneas. É chamado de servidor porque fornece um serviço para outro
+    computador e seu usário também conhecido como cliente.
+
+Diferentes tipos de armazenamentos, ditam como será o servidor:
+    Servidor utilizado para imagens, necessita de um espaço maior no disco rígido.
+    Servidor que executa cálculos complexos pode precisar de um processador rápido
+        e muita memória.
+
+Isso geralmente é chamado de hardware de servidor ou componentes físicos de um servidor.
+
+Depois que o hardware do servidor estiver instalado no data center, um trecho de código
+    poderá ser executado.
+O código executado no hardware é comumente conhecido como Software.
+
+Something you can physically touch
+    Physically replace componentes.
+        Software is easy to change
+    
+-Serviço Web >
+    Tem muitas funções que incluem armazenamento e administração de sites, armazenamento
+        de dados, segurança e gerenciamento de e-mail.
+
+Website storage and administration
+    Data storage
+        Security
+            Managing email
+
+Outra função muito importante é lider com solicitação da web.
+    Ciclo de resposta
+
+---------What is a web browser and how does it work?
+        O que é um servidor da web e como ele funciona?
+
+Browser > é um aplicativo de software que voc~e usa para nevagar na World Wide Web.
+    Funciona enviado uma solicitação para um servidor web e então recebe uma resposta
+        contendo o conteúdo que será exebido na tela do seu dispositivo.
+
+O endereço que você digita o URL do site, é chamado de Uniform Resource Locator
+
+A página da Web é um documento codificado que é renderizado pelo navegador e apresentado
+    visualmente a você, o usuário final.
+
+Web browser > web server > database
+
+
+
+
+
+
 
 
 

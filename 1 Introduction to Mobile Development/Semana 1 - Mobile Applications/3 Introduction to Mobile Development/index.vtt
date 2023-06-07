@@ -1,0 +1,361 @@
+Introduction to Mobile Development
+
+--------------Mobile application evolution - Evolução das aplicações móveis
+
+As pessoas passam 1/4 de suas vidas utilizando aplicativos.
+
+First celluar phone
+    Primeiro celular portátil criado em 1973 por Martin Cooper.
+
+1970 - Celluar networks
+    Desenvolvimento de redes celulares que conectavam telefones celulares à internet.
+
+1980 - Apenas nesse ano o publico teve acesso.
+
+1990 - Quando o primeiro smartphone se tornou público, abalou o mundo.
+
+1994 - 
+    IBM Simon contruído pela IBM foi um dos primeiros dispositivos portátil com tela 
+    sensível ao toque.
+
+2000 - 
+    Operating systems - App stores
+        Sistemas operacionais precisavam forncer plataformas cada vez mais sofisticadas
+            para a execução dos aplicativos, e as lojas foram criadas para dar aos 
+            usuários acesso a milhares de aplicativos.
+
+2003 -
+    Nascimento do Android competindo com Symbian e Blackberry
+
+2005 -
+    Google comprou o Android por 50 milhões
+
+2007 - 
+    Lançamento do iPhone
+
+2008 -
+    Android OS
+        Primeiro sistema operacional Android lançado ao público.
+
+2009 -
+    Apple App Store
+        Nascimento da loja de aplicativos da Apple, iniciou com 500 aplicativos.
+
+2009 -
+    Samsung anunciou sua loja de aplicativos para dispositivos móveis fabricados 
+        pela Samsung ELectronics.
+
+2010 -
+    Apple lançou o iPad com mais de 3.000 aplicativos na sua loja.
+
+2012 -
+    Google, renomearam sua loja para Google Play.
+
+2015 -
+    Google revolucionou sua loja de aplicativos. Podendo revisar seus aplicativos
+        antes de fato públicar
+
+Dias atuais
+    Mercado dominado por Google e Apple
+
+
+-------------iOS: Platform and language
+
+-Explain IOS > Explicar como funciona o desenvolvimento para iOS
+    -Identify top IDEs > Identificar os principais ambientes de desenvolvimento integrado
+        ou IDEs para desenvolvimento iOS
+        - Explore an IDE > Explorando um exemplo de IDE para entender como eles funcionam
+
+É importante garantir que seu aplicativo atenda aos requisitos do sistema operacional
+    em que será executado.
+
+iOS é uma sigla que significa sistema operacional do iPhone
+
+iOs é baseado no antigo sistema operacional da Apple chamado Darwin, 
+    que por sua vez é baseado no Unix.
+
+Touch Gesturing > permite o usuário realizar gestos como:
+    > Swiping - deslizar
+        > Pulling - puxar
+            > Tapping - tocar
+
+Dispostivos iOS também utilizam Accelerometers e Gyroscopes
+
+Um pouco da história do iPhone:
+
+2007 - iPhone OS 1
+
+OS 2 - iPhone - SDK introduced ou KIT de desenvolvimento de software para desenvolvedores
+
+SDK é uma caixa cheia de ferramentas que os desenvolvedores móveis usam para criar
+    aplicativos para iOS.
+
+Now 
+    Mais melhorias são implementadas a cada atualização.
+
+--------------IDES para iOS
+    Xcode > completando as linhas de código automaticamente.
+    syntax highlighting for Swift > sintaxe completa destacada para o Swift.
+
+    Appcode > IDE de uma empresa chamada JetBrains.
+
+    Atom > projeto pelo GitHub.
+
+    Sublime Text
+
+    CodeRunner.
+
+---------Swift
+    Coding platform for developing apps across all Apple devices.
+        Ele oferece aos desenvolvedores uma plataforma única para criar aplicativos para
+            uma ampla gama de dispositivos Apple.
+
+Windows não oferece suporte ao Xcode
+
+Xcode oferece suporte para várias linguagens de programação além do Swift.
+
+
+-----------Android: Platform and language
+
+Android posui a maior base de dispositivos ativos no mundo.
+
+Explain what Android is
+    Identify common integrated development environments for Android
+        Identify languages used for Android development
+
+O que é Android?
+    É um sistema operacional móvel que foi lançado pela primeira vez em 2008 e é o
+        sistema básico de muitos telefones e tablets em todo o mundo.
+
+IDEs disponívels para Android
+    Android Studio
+    NetBens IDE > desenvolvimento com Java
+    VS Code
+    AIDE > Java ou XML usando o Android SDK
+
+Kotlin é uma linguagem de plataforma cruzada, o que significa que funcionará em várias
+    plataformas de computação.
+Ele foi projetado para substituir o desenvolvimento de aplicativos Java para Android
+Kotlin ainda consegue gerar:
+    Compatibility > compatível com apps mais antigos
+    Interoperability > Kotlin e Java podem ser usados ao mesmo tempo
+    Faster compilation > testar e implementar de forma mais rápida o código
+    Easy to learn
+
+------------JavaScript, the language of the web
+Marc Lowell Andreessen acreditava que as páginas da web poderiam ser manipuladas
+    usando uma linguagem de script, tornando o conteúdo da web interativo, assim
+    nasceu o JavaScript.
+
+No início o JavaScript era usada para trazer apenas mais interatividade para o site.
+Hoje ele é usado em uma  ampla gama de aplicativos, como desenvolvimento web e móvel,
+    serviços de streaming, ELectronics
+
+Write > Compile > Execute 
+    Código precisa ser executado ou compilado em algo chamado código de máquina para
+        ser entendido pelo computador.
+
+JavaScript engine > ECMAScript engine
+Os navegadores têm um componente de software específico chamado mecanismo JavaScript 
+    que executa o código JavaScript e o envia de volta ao navegador para renderização.
+
+JavaScript para Google Chrome é chamado V8
+SpiderMonkey > Mozilla Firefox
+JavaScriptCore ( Apple Safari)
+
+V8 é o mecanismo na linguagem de programação C++ e usado no navegador Chrome
+
+Just-In-Time compilation > motivo dele ser tão rápido
+
+------------Web browsers vs mobile browsers
+Explain how a browser works
+    Describe the role of JavaScript in browsers
+        Explain the differences between web and mobile browsers
+
+    Acces information quickly
+
+Você pode pensar em um navegador como um aplicativo projetado para baixar uma página
+    da Web e apresentá-la de forma clara e compreensível para um visitante.
+
+Google Chrome |  Apple Safari |  Mozile Firefox
+
+JavaScript permite que você altere quase todas as seções da página.
+
+-Quando um navegador é baixado como uma página da Web, ele é recebido como código,
+    especificamente HTML, CSS e JavaScript.
+-Mas esse código precisa ser transformado em uma página que use o expect to see.
+É por isso que o nevagador entra e usa o mecanismo do navegador JavaScript para fazer
+    o trabalho.
+
+Mobile and desktop browser differences
+    Mobile browser++
+        Quicker access > acesso mais rápido à página da web
+        Easier multitasking > permitem multitarefa perfeita
+        Portability
+        Regular updates
+        Less bandwith > consome menos banda
+
+    Desktop browser++
+        More stable > mais estável
+        Larger view > campo de visão maior de uma página
+        Full access > acesso total ao conteúdo do site
+        Easier navigation > facilitam a navegação entre as páginas
+
+
+----------Responsive websites
+
+    O design responsivo significa que uma página da Web pode esticar ou encolher
+        automaticamente, dependendo da tela em que é exibida.
+
+    User experience
+    CSS media queries
+    Fluid images
+    Fixed and fluid grids
+
+Todas as telas são compostas por milhares de pequenas luzes chamadas pixels.
+
+Three techniques
+    O design responsivo é um conjunto de três técnicas que permitem que um site
+        mude automaticamente seu visual.
+Responds visually
+    Em outras palavras, para responder com base no dispostivo em que é exibido.
+
+A capacidade de respostas é criada por uma combinação de três técnicas:
+    Flexible grids > grades flexíveis
+    Fluid images > imagens fluídas
+    Media queries > consultas de mídia
+
+    Flexible grids
+        Assim, em vez de definir os tamanhos dos elementos do site com base em pixels,
+        as grades flexíveis são definidas em valores percentuais, permitindo que se
+        ajustem dependendo do tamanho da tela.
+
+    Fluid images
+        Quando definidas corretamente, as imagens fluídas permitem que as imagens diminuam
+        para um tamanho menor, mas não cresçam mais do que seu tamanho original e se
+        tornem de qualidade inferior, o que é conhecido como pixelado.
+
+
+    Media queries
+        As consultas de mídia permitem que os desenvolvedores consultem o tamanho da
+        tela, a orientação e a proporção do dispositivo para ajudar o site a ser
+        exibido corretamente.
+
+Responsive grid - Os três em conjunto fornecem assim uma grade responsiva
+
+Breakpoint - No design responsivo, o valor do pixel especificado costuma ser chamado de
+    ponto de interrupção.
+    Um ponto de interrupção é o ponto em qual o conteúdo e o layout de um site se
+        adaptariam para fornecer a melhor experiência possível ao usuário.
+    
+   Ferramentas multiplataformas que facilitam o trabalho do desenvolvedor 
+React Native > Angular > Flutter > Appcelerator
+
+-------------Module summary: Mobile development
+             Resumo do módulo: Desenvolvimento móvel
+
+Você iniciiou o módulo com uma visão geral das funções do desenvolvedor multiplataforma
+    e agora pode delinear a função de um desenvolvedor multiplataforma listando algumas
+    de suas tarefas diárias comuns.
+
+Outline the everyday tasks of a cross-platform developer
+    Design, planejamento, pesquisa, construção e manuntenção.
+
+Você também pode identificar vários dos negócios e áreas em que os desenvolvedores de
+    plataforma cruzada, compartilham suas habilidades, como start-ups, agencias e Meta.
+
+Explain the languages and skills required of a cross-platform developer
+    Como JavaScript e interface do usuário ou desenvolvimento de interface do usuário.
+
+Differentiate between a website and webpage
+    Agora você pode diferenciar entre um site e uma página da web, descrevendo os
+        principais elementos de cada
+
+Outline the purpose of HTML and CSS languages
+    Delineando a finalidade do HTML e do CSS forcenendo uma explicação de como
+        eles funcionam.
+
+Idenfity the benefits of JavaScript
+    Identificar os benefícios que o JavaScript oferece a uma página da Web, como
+        interatividade e processamento de dados.
+
+Agora você está familiarizado com os conceitos básicos de servidores Web e pode 
+    explicar como um data center fornece armazenamento e servidores Web poderosos, 
+    diferenciar entre as principais funções de hardware e software do servidor Web e 
+    descrever como um servidor Web lida com solicitações de HTTP ou Protocolo de 
+    Transferência de Hipertexto. 
+
+Você também investigou a terceira tecnologia-chave da web, que são os navegadores 
+    da web. Após esta investigação, agora você pode explicar o que é um navegador da web, 
+    descrever como um navegador da web recebe content de um servidor Web e exibe para 
+    os usuários e descreve o ciclo de solicitação-resposta.
+
+A lição final que você empreendeu neste módulo foi uma introdução ao desenvolvimento 
+    mobile. Durante esta lição, você explorou os principais conceitos sobre aplicativos 
+    móveis, como plataformas de desenvolvimento, linguagens e interatividade. 
+   
+Tendo concluído esta lição, agora você pode explicar a importância da tecnologia 
+    móvel para a vida cotidiana, descrever o desenvolvimento da tecnologia móvel nas 
+    últimas décadas e identificar os principais sistemas operacionais móveis, como 
+    Android e iOS. 
+    
+Como parte de sua jornada para se tornar um desenvolvedor móvel, você também explorou 
+    sistemas operacionais móveis como iOS e Android. Como resultado, você aprendeu a 
+    explicar o que é o iOS ao lado de seus benefícios, identificar os principais 
+    ambientes de software integrados ou IDEs para aplicativos iOS, como o Xcode, 
+    e descrever o propósito e a função da linguagem de programação Swift. 
+    
+O que é o Android, descrever os principais ambientes de software integrados ou IDEs 
+    para aplicativos Android e identifique os benefícios da linguagem Kotlin no Android 
+    Studio. 
+    
+Você investigou o JavaScript e aprendeu a explicar a finalidade do JavaScript e fornecer
+    uma breve visão geral de seu histórico, descrever como o JavaScript interage com
+    o navegador para gerar interatividade e identificar alguns dos mecanismos 
+    JavaScript exclusivos utilizados pelos principais navegadores. 
+    
+Você estudou navegadores móveis e da Web e agora pode descrever como um navegador baixa 
+    e renderiza um site, descrever como o JavaScript permite a interatividade em um 
+    navegador da Web e identificar as vantagens dos navegadores móveis e de desktop. 
+     
+Finalmente, você explorou o design responsivo e aprendeu a explicar o conceito de web
+    design responsivo, descrever como o web design responsivo funciona e descrever as 
+    vantagens do web design responsivo. Agora você está familiarizado com aplicativos 
+    móveis, incluindo funções comuns de desenvolvedor para dispositivos móveis e da Web, 
+    como a Web funciona e os conceitos básicos de desenvolvimento móvel. 
+    
+    Esse é um ótimo começo para sua jornada no React Native.
+
+Evolução de aplicativos móveis
+
+https://www.appverticals.com/blog/evolution-of-mobile-apps/
+
+Plataforma e Linguagem IOS
+
+https://developer.apple.com/swift/#:~:text=Swift%20is%20a%20powerful%20and,includes%20modern%20features%20developers%20love.
+
+Android e Kotlin
+
+https://developer.android.com/kotlin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
