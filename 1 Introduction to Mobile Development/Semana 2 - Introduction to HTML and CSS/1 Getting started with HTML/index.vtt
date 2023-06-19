@@ -30,6 +30,251 @@ Criamos uma página web simples dentro da pasta atual
 Now you know how to:
     Use basic HTML tags
 
+---------Simple HTML tags
+
+Headings
+Headings allow you to display titles and subtitles on your webpage.
+<body>
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+</body>
+
+Paragraphs
+Paragraphs contain text content.
+<p>
+   This paragraph
+   contains a lot of lines
+   but they are ignored.
+</p>
+    Note that putting content on a new line is ignored by the web browser.
+
+
+Line Breaks
+As you've learned, line breaks in the paragraph tag line are ignored by HTML.
+    <br>Instead, they must be specified using the <br> tag. 
+    The <br> tag does not need a closing tag.
+
+Strong
+Strong tags can be used to indicate that a range of text has importance.
+<p>
+   No matter how much the dog barks: <strong>don't feed him chocolate</strong>.
+</p>
+
+Bold
+Bold tags can be used to draw the reader's attention to a range of text.
+<p>
+   The primary colors are <b>red</b>, <b>yellow</b> and <b>blue</b>.
+</p>
+
+Bold tags should be used to draw attention but not to indicate that something 
+is more important. Consider the following example:
+The three core technologies of the Internet 
+are <b>HTML</b>, <b>CSS</b> and <b>Javascript</b>.
+
+Emphasis
+Emphasis tags can be used to add emphasis to text.
+<p>
+   Wake up <em>now</em>!
+</p>
+
+Italics
+Italics tags can be used to offset a range of text.
+<p>
+   The term <i>HTML</i> stands for HyperText Markup Language.
+</p>
+
+Emphasis vs. Italics
+By default both tags will have the same visual effect in the web browser. 
+The only difference is the meaning.
+Emphasis tags stress the text contained in them. Let's explore the following example:
+I <em>really</em> want ice cream.
+
+Italics represent off-set text and should be used for technical terms, titles, 
+a thought or a phrase from another language, for example:
+My favourite book is <i>Dracula</i>.
+
+Lists
+You can add lists to your web pages. There are two types of lists in HTML.
+
+Lists can be unordered using the <ul> tag. 
+List items are specified using the <li> tag, for example:
+<ul>
+   <li>Tea</li>
+   <li>Sugar</li>
+   <li>Milk</li>
+</ul>
+
+Lists can also be ordered using the <ol> tag. 
+Again, list items are specified using the <li> tag.
+<ol>
+   <li>Rocky</li>
+   <li>Rocky II</li>
+   <li>Rocky III</li>
+</ol>
+
+Div tags
+A <div> tag defines a content division in a HTML document. 
+It acts as a generic container and has no effect on the content unless it 
+is styled by CSS.
+The following example shows a <div> element that contains a paragraph element:
+<div>
+   <p>This is a paragraph inside a div</p>
+</div>
+
+It can be nested inside other elements, for example:
+<div>
+   <div>
+      <p>This is a paragraph inside a div that’s inside another div</p>
+   </div>
+</div>
+
+As mentioned, the div has no impact on content unless it is styled by CSS. Let’s add a small CSS rule that styles all divs on the page.
+
+Don't worry about the meaning of the CSS just yet, you'll explore CSS further in 
+a later lesson. In summary, you're applying a 
+rule that adds a border and some visual spacing to the element.
+<style>
+   div {
+      border: 1px solid black;
+      padding: 2px;
+   }
+</style>
+<div>
+   <div>
+      <p>This is a paragraph inside stylized divs</p>
+   </div>
+</div>
+Div elements are an important part of building webpages. 
+More advanced usage of div elements will be explored in another course.
+
+Comments
+If you want to leave a comment in the code for other developers, it can be added as:
+<!-- This is a comment --> 
+
+The comment will not be displayed in the web browser.
+
+------------Linking documents - Vinculando documentos
+
+How to link webpages together
+vincular diferentes páginas da web para criar um site
+ aplicação feita no arquivo index.html e location.html
+
+------------Introduction to the DOM - Introdução ao DOM
+
+HTML Document
+   Se fosse um documento HTML, os usuários poderiam rolar a página, ver imagens e ler
+      textos, mas não poderiam fazer login como postagens ou receber notificações
+      de novas mensagens.
+
+Para pertmitir que os usuários façam essas coisas, eles precisam interagir com objetos
+   na página, como ícones de reação ou botão de comentário.
+
+        JavaScript
+   HTML -> DOM -> HTML PAGE
+
+Whats is the DOM?
+How is it created?
+How is it used?
+Como ele é criado e como o JavaScript interage com o DOM para tornar os sites dinamicos
+
+   Quando seu navegador recebe uma página HTML, ele constrói um DOM para representá-la.
+   DOM significa Document Object Model e é simplesmente uma árvore, estrutura ou modelo
+      dos objetos em seu arquivo HTML.
+
+Na raiz do DOM está o objeto html e contém os objetos head e body
+
+-How JavaScript
+   uses the DOM
+
+   pARA CADA ELEMENTO, VOCÊ PODE ACESSAR OS ATRIBUTOS E CONTEÚDO html, isso significa
+      que você pode atualizar o conteúdo existente que é exibido no navegador da web.
+
+Libraries and Frameworks
+   Outro uso importante do JavaScript e do DOM é animar os elementos HTML.
+
+Muitas bibliotecas e estruturas JavaScript dependem do DOM, 
+   uma dessas é a biblioteca react.
+
+------------Web accebility - Acessibilidade na Web
+
+   Senhor, Tim Berners Lee criador da World Wide Web,
+       disse que o poder da Web está em sua universalidade
+
+allow people with disabilities to understand, navigate and interact with websites.
+   A acessibilidade na Web visa permitir que pessoas com deficiência entendam como
+      navegar e interagir com sites.
+
+   Deficiências visuais e de áudio
+   Deficiências cognitivas
+   Neurológicas
+   Físicas e de fala
+
+   O W três C.
+   A iniciativa  de acessibilidade na Web desenvolveu especificações e recursos de
+      suporte para acessibilidade.
+
+   Estes são considerados padrões internacionais para acessibilidade na Web.
+
+   Screen reader software
+      O software leitor de tela pode ler o conteúdo de sites e tudo o que está
+         acontecendo no dispositivo.
+      Usados não apenas por deficientes visuais, mas também por pessoas com dificuldade
+         de leitura ou aprendizado.
+
+   Speech recognition software
+      O software de reconhecimento de fala pode transformar palavras faladas em
+         comandos de computador ou ditar a entrada de texto.
+
+   Subtitles and scripts
+      Legendas e scripts de vídeo e vídeos fornecem assistência para pessoas com
+         deficiência visual e auditiva.
+
+   É uma boa prática pensar em acessibilidade desde o início de um projeto, é muito
+      mais difícil retrabalhar o projeto para ficar acessível depois.
+   
+   WAI
+      Web Accessibility Initiative
+      Felizmente, uma das tarefas do W AI é definir o aplicativo de internet rico
+         acessível ou ária.
+   ARIA
+      Accessible Rich Internet Application
+      A especificação aria descreve diferentes técnicas para melhorar a acessibilidade
+         para aplicativos da web complexos.
+
+-------TESTE PARA PRÁTICAR 2 - Knowledge Check - Getting started with HTML
+   100% no test
+
+Additional Resources
+Learn more
+Here is a list of resources that may be helpful as you continue your learning journey.
+
+HTML Elements Reference (Mozilla)
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+The Form Element (Mozilla)
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+What is the Document Object Model? (W3C)
+
+https://www.w3.org/TR/WD-DOM/introduction.html
+
+ARIA in HTML (W3C via Github)
+
+https://w3c.github.io/html-aria/
+
+ARIA Authoring Practices  (W3C)
+
+https://www.w3.org/TR/wai-aria-practices-1.2/
+
+   
+
+
 
 
 
