@@ -1,11 +1,166 @@
 Introduction to Mobile Development
 
 --------------Selecting and styling - Seleção e estilização
+    Quando se trata de sites e aplicativos da web, você pode pensar em html como sendo
+        o quadro e  a estrutura. CSS, no entanto, é a pintura, papel de parede, 
+        acessórios, arte e estilo geral ou aparência. Em outras palavras, o CSS informa
+        ao navegador da Web como exibir elementos html na tela.
 
+CSS rule
+    Selector > p {`
+                    (propriedade)color: (valor)blue;       *Declaração de estilos*
+                    }
 
+CSS tem um conjunto de regras de hierarquia que determinam qual regra será aplicada a um elemento.
 
+Exemplo praticando dentro da pasta no arquivo index.html e style.css
 
+------------Different types of selectors - diferente tipos de seletores
 
+Diferentes tipos de seletores
+Ao estilizar uma página da Web, há muitos tipos de seletores disponíveis que permitem que os desenvolvedores sejam tão amplos ou específicos quanto precisam ser ao selecionar elementos HTML aos quais aplicar regras CSS.
+
+Aqui você aprenderá sobre alguns dos seletores CSS comuns que você usará como desenvolvedor.
+
+Seletores de elementos
+O seletor de elementos permite que os desenvolvedores selecionem elementos HTML com base em seu tipo de elemento.
+
+Por exemplo, se você usar  p  como seletor, a regra será aplicada a todos os  elementos p na página da Web.
+
+.HTML
+    <p>Once upon a time...</p>
+    <p>In a hidden land...</p>
+
+CSS
+    p { 
+        color: blue; 
+    }
+
+--
+
+Seletores de ID
+O seletor de ID usa o atributo id de um elemento HTML. Como o id é exclusivo em uma página da Web, ele permite que o desenvolvedor selecione um elemento específico para estilização. Os seletores de ID são prefixados com um  caractere #.
+
+.HTML
+    <span id="latest">New!</span>
+
+CSS
+    #latest { 
+        background-color: purple; 
+    }
+
+--
+
+Seletores de classe
+Os elementos também podem ser selecionados com base no atributo de classe aplicado a eles. A regra CSS foi aplicada a todos os elementos com o nome de classe especificado. O seletor de classe é prefixado com um arquivo . personagem.
+
+No exemplo a seguir, a regra CSS se aplica a ambos os elementos à medida que eles têm  a  classe CSS de navegação aplicada a eles.
+
+.HTML
+    <a class="navigation">Go Back</a>
+    <p class="navigation">Go Forward</p>
+
+CSS
+    .navigation { 
+        margin: 2px;
+    }
+
+--
+
+Elemento com seletor de classe
+Um método mais específico para selecionar elementos HTML é selecionando primeiro o elemento HTML e, em seguida, selecionando a classe CSS ou ID.
+
+O exemplo abaixo seleciona todos os  elementos p que têm a introdução da classe CSS  aplicada a eles.
+
+.HTML
+    <p class="introduction"></a>
+
+CSS
+    p.introduction { 
+         margin: 2px;
+    }
+
+--
+
+Seletores de descendentes
+Os seletores descendentes são úteis se você precisar selecionar elementos HTML contidos em outro seletor.
+
+Vamos explorar um exemplo.
+
+Você tem a seguinte estrutura HTML e regra CSS.
+
+.HTML
+    <div id="blog">
+        <h1>Latest News</h1>
+        <div>
+            <h1>Today's Weather</h1>
+            <p>The weather will be sunny</p>
+        </div>
+        <p>Subscribe for more news</p>
+    </div>
+    <div>
+        <h1>Archives</h1>
+    </div>
+
+CSS
+    #blog h1 {
+        color: blue;
+    }
+
+A regra CSS selecionará todos os  elementos h1 contidos no elemento com o blog ID. A regra CSS não se aplicará ao  elemento h1 que contém o texto Archives.
+
+A estrutura de um seletor descendente é um seletor CSS, seguido por um único caractere de espaço, seguido por outro seletor CSS.
+
+Vários descendentes também podem ser selecionados. Por exemplo, para selecionar todos os  elementos h1 que são descendentes  de elementos div que são descendentes do  elemento blog, o seletor é especificado da seguinte maneira.
+
+.CSS
+    #blog div h1 {
+        color: blue;
+    }
+
+--
+
+Seletores de crianças
+Os seletores de filhos são mais específicos do que os seletores descendentes. Eles selecionam apenas elementos que são descendentes imediatos (filhos) de um seletor (o pai).
+
+Por exemplo, você tem a seguinte estrutura HTML:
+
+.HTML
+    <div id="blog">
+        <h1>Latest News</h1>
+        <div>
+            <h1>Today's Weather</h1>
+            <p>The weather will be sunny</p>
+        </div>
+        <p>Subscribe for more news</p>
+    </div>
+
+Se você quiser estilizar  o elemento h1 que contém o texto Últimas Notícias, você pode usar o seguinte seletor filho:
+CSS
+   #blog > h1 {
+        color: blue;
+    } 
+
+Isso selecionará  o elemento com o blog ID (o pai), em seguida, selecionará todos  os elementos h1 que estão contidos diretamente nesse elemento (os filhos). A estrutura do seletor filho é um seletor CSS seguido pelo símbolo do combinador filho > seguido por outro seletor CSS.
+
+Observe que isso não irá além de um único nível de profundidade. Portanto, a regra CSS não será aplicada ao  elemento h1 que contém o texto Today's Weather.
+
+:passe o mouse sobre a pseudoclasse
+Uma palavra-chave especial chamada pseudoclasse permite que os desenvolvedores selecionem elementos com base em seu estado. Não se preocupe muito com o que isso significa agora. Por enquanto, vamos ver como a pseudoclasse de foco permite que você estilize um elemento quando o cursor do mouse passa sobre o elemento.
+
+O exemplo mais simples disso é alterar a cor de um hiperlink quando ele é focalizado. Para fazer isso, adicione a  pseudoclasse :hover ao final do seletor. No exemplo a seguir, adicionar :hover ao  elemento a alterará a cor do hiperlink para laranja quando ele for focalizado.
+
+CSS
+    a:hover {
+        color: orange;
+    }
+
+Essa pseudoclasse é muito útil para criar efeitos visuais com base na interação do usuário.
+
+Outros Seletores
+Há muitos outros seletores CSS disponíveis para estilizar sua página da Web. 
+
+-----------------Text and color in CSS - Texto e cor no CSS
 
 
 
