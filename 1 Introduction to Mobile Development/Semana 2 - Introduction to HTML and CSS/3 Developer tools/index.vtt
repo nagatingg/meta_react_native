@@ -2,6 +2,62 @@ Introduction to Mobile Development
 
 --------------Developer tools - Ferramenta do desenvolvedor
 
-    
+    A maioria dos navegadores da Web vem equipada com um conjunto de ferramentas de desenvolvedor que permitem aos desenvolvedores inspecionar seu código HTML, CSS e Javascript.
+
+    Console
+        Esta guia produz logs de javascript e erros de seu aplicativo da web.
+
+    Sources
+        Mostra todo o conteúdo resolvido para a página atual. Inclui HTML, CSS, Javascript, imagens e vídeos.
+
+    Network
+        Você pode inspecionar a linha do tempo e os detalhes das solicitações e respostas http para a página da web.
+
+    Performance
+        Mostra o que o navegador da web está fazendo ao longo do tempo. Útil se seu aplicativo da WEB estiver lento porque você pode identificar as funções que estão demorando mais.
+
+    Memory
+        A guia de memória exibe as partes do seu código que estão consumindo mais recursos.
+
+    Elements
+        Inspecionar os documentos HTML e suas propriedades
+
+-----------Examine the page
+Pasta examine_the_page
+
+
+-----------O que é um IDE?
+    Vantangens de ser utilizar uma IDE, já visto em alguns modulos anteriores
+
+    Palavras-chave especiais da linguagem de programação são destacadas em cores diferentes para tornar o código mais fácil de ler. 
+    Os IDEs têm um recurso chamado Destaque de Erro.
+    Os IDEs têm um recurso que pode detectar variáveis e funções e oferecê-las como sugestões durante o preenchimento automático. 
+
+----------Module summary: Introduction to HTML and CSS
+
+Additional Resources
+Learn more
+Here is a list of resources that may be helpful as you continue your learning journey.
+
+HTTP Overview (Mozilla)
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+
+Introduction to Networking by Dr.Charles R Severance
+
+https://www.amazon.com/Introduction-Networking-How-Internet-Works/dp/1511654945/
+
+Chrome Developer Tools Overview (Google)
+
+https://developer.chrome.com/docs/devtools/overview/
+
+Firefox Developer Tools User Docs  (Mozilla)
+
+https://firefox-source-docs.mozilla.org/devtools-user/index.html
+
+Getting Started with Visual Studio Code  (Microsoft)
+
+https://code.visualstudio.com/docs
+
 
 

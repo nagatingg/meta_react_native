@@ -25,7 +25,7 @@ h2 span.new {
     font-size: 0.75em;
 }
 
-#copyright {
+div.center-text #copyright {
+    font-size: 0.75em;
     padding-top: 12px;
-    font-size: 0.75em; /* In the updated code, I added the selector h2 span.new to target the 'NEW' labels within <h2> tags. This selector allows you to apply the color #fa9f42 specifically to those labels. Additionally, the font-size property for the element with the ID copyright remains unchanged as 0.75em. */
 }
