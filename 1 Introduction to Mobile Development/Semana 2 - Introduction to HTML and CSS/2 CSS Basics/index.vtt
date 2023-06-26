@@ -161,6 +161,301 @@ Outros Seletores
 Há muitos outros seletores CSS disponíveis para estilizar sua página da Web. 
 
 -----------------Text and color in CSS - Texto e cor no CSS
+-Color
+As cores são usadas em muitas propriedades CSS, por exemplo:
+p { 
+  color: blue; 
+}
 
+A partir do CSS versão 3, há cinco maneiras principais de referenciar uma cor:
+    Pelo valor RGB;
+    Pelo valor RGBA;
+    Pelo valor HSL;
+    Por valor hexadecimal e
+    Por nomes de cores predefinidos.
+
+-RGB Value - Valor RGB
+    RGB é um modelo de cores que adiciona as cores vermelho (R), verde (G) e azul(B) junto para criar cores. Isso se baseia em como o olho humano vê as cores.
+
+Cada valor é definido como um número entre 0 e 255, representando a itensidade dessa cor.
+Por exemplo, a cor vermelha teria o valor RGB de 255,0,0 já que a intensidade da cor vermelha seria 100%, enquanto azul e o verde seriam 0%.
+A cor preta então seria 0,0,0 e a cor branca 255,255,255.
+Ao usar valores RGB em CSS, eles podem ser definidos usando a palavra-chave rgb:
+p {
+    color: rgb(255,0,0);
+}
+
+-HSL value - valor HSL
+    HSL é um modelo de cor mais recente definido como matriz(H), Saturação(S) e leveza(L). O objetivodo modelo é simplificar a visualização mental da cor que o valor representa.
+Pense em um arco-íris que foi transformado em um círculo completo. Isso representa a Matriz. 
+O valor de Hue é o valor de grau neste círculo, de 0 graus a 360 graus. 0 é vermelho, 120 é verde e 240 é azul.
+
+Saturação é a distância do centro do círculo até sua borda. O valor de saturação é representado por uma porcentagem de 0% a 100% onde 0% é o centro do círculo e 100% é sua borda. Por exemplo, 0% significa que a cor é mais cinza e 100% representa a cor completa.
+
+No CSS, você usa a palavra-chave hsl para definir uma cor com HSL.
+p {
+    color: HSL(0, 100%, 50%);
+}
+
+- Valor hexadecimal
+As cores podem ser especificadas usando um valor hexadecimal. Se você não estiver familiarizado com o hexadecimal, pense nele como um conjunto de números diferente.
+Decimal é o que voc~e usa todos os dias. Os dígitos variam de 0 a 9 antes que dezenas e centenas sejam usadas.
+Hexadecimal é semelhante, excete que tem 16 dígitos. Isso é contado como:
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+
+Na verdade, você pode converter entre decimal e hexadecimal. 
+    Decimal 10 é igual a hexadecimal A. 
+    F hexadecimal é igual a decimal 15.
+
+Hexadecimal também pode ir a dezenas e centenas.
+    Decimal 16 é igual a hexadecimal 10, com 10 sendo o próximo número após F.
+
+( bem confuso pra mim nesse momento)
+As cores especificadas usando hexadecimal são prefixadas com um símbolo # seguido pelo valor RGB no formato hexadecimal.
+    A cor vermelha que é RGB(255,0,0) é escrita como #FF0000
+
+-Nome de cores predefinidos
+    Os navegadores da web modernos suportam 140 nomes de cores predefinidos. Esses nomes de cores são para fins de conveniência e podem ser mapeados para valores hex,RGB,HSL equivalentes. Exemplos:
+        black
+        silver
+        gray
+        white
+        maroon
+        red
+        purple
+        fuchsia
+        green
+        lime
+        olive
+        yellow
+        navy
+        blue
+        teal
+        aqua
+
+-Texto
+    Com o CSS, há muitas maneiras de alterar a forma como o texto é exibido. Nesta ação, você aprenderá as propriedades CSS de manipulação de texto mais comuns.
+
+-Fonte e tamanho do texto
+    p {
+        font-family: "Courier New", monospace;
+    }
+    Como os computadores variam em quais fontes eles instalaram, é recomendável incluir várias fontes ao usar a propriedade font-family. Elas são especificados em uma ordem de fallback. o que significa que, se a primeira fonte não estiver disponível, ela verificará a segunda fonte, e assim por diante. Nenhuma disponível, ele usará a fonte padrão do navegador.
+
+    p {
+        font-family: "Courir New", monospace;
+        font-size: 12px;
+    }
+
+-Transformação de texto
+    A transformação de texto é útil se você quiser garantir a capitalização correta do conteúdo do texto. No exemplo abaixo, a regra CSS alterará todo o texto em elementos de parágrado para maiúsculas usando a propriedade text-transform:
+    p {
+        text-transform: uppercase;
+    }
+
+Os valores mais comumente usados para a propriedade text-transform são: maiúsculas, mminúsculas e nenhuma. 
+O valor padrão usado é none, o que significa que o texto é exibido como foi escrito no documento HTML.
+
+-Decoração de texto
+    A propriedade text-decoration é útil para aplicar decoração adicional ao texto, como sublinhado e linha(tachado).
+    p {
+        text-decoration: underline; (sublinhado)
+    }
+    É possível definir a cor, espessura e estilo da decoração também. No exemplo abaixo, sublinhado será uma linha vermelha sólida com 5 pixels de espessura:
+    p {
+        text-decoration: underline red solid 5px;
+    }
+    Essas propriedades podem ser definidas individualmente usando as propriedades:
+    text-decotation-line
+    text-decoration-color
+    text-decoration-style
+    text-decoration-thickness
+    p {
+        text-decoration-color: red;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-thickness: 5px;
+    }
+    Os valores de text-decoration-line mais usados são:
+        underline
+        overline
+        line-through
+        none
+    Para text-decoration-style:
+        solid
+        double
+        dotted
+        dashed
+        wavy
+    Caso nenhuma propriedade seja definida, a padrão será solid
+
+------------Box model introduction
+    Quando um documento HTML e uma folha de estilo CSS são baixados, o navegador da WEB precisa saber como exibir os elementos na tela. 
+    Para fazer isso, aloca um retângulo ou caixa para cada elemento. 
+    As regras CSS são aplicadas às caixas dos elementos.
+    Isso é conhecido como box model
+
+Cada caixa consiste em quatro partes
+    Conteúdo - content
+    Padding - prenchimento
+    Border
+    Margin
+
+content
+    O conteúdo, é o conteúdo real do elemento, como texto ou imagem
+    content size > content width > content height
+        Seu tamanho é conhecido como largura do conteúdo e altura do conteúdo
+    Exemplo de manipulação do conteúdo:
+        width: 1px;
+        min-width: 1px;
+        max-width: 2px;
+        height: 1px;
+        min-height: 1px;
+        max-height: 2px;
+
+padding >  Padding Box Width > Padding Box height
+    O prenchimento estende o tamanho do conteúdo.
+    Seu tamanho é conhecido como largura da caixa de preenchimento e altura da caixa de preenchimento.
+    A espessura do preenchimento é determinada pelo preenchimento superior:
+        padding-top: 4px;
+    Preenchimento inferior
+        padding-bottom: 1px;
+    Preenchimento esquerdo:
+        padding-left: 5px;
+    Preenchimento direito:
+        padding-right: 2px;
+
+Border > border box width > box border height
+    A borda contorna o preenchimento e o conteúdo:
+    Seu tamanho é conhecido como largura da caixa de borda e altura da caixa de borda
+
+Um elemento HTML é igual ao tamanho da caixa de borda. 
+Para obter a largura da caixa de borda, adicione a largura da caixa de preenchimento mais o lado esquerdo da borda mais o lado direito da borda.
+Você pode calcular a altura da caixa de borda adicionando a altura da caixa de preenchimento e o lado superior da borda, bem como o lado inferior da borda. 
+
+margin > margin box width > margin box height
+    A margem estende a área da borda para separar o elemento de seus elementos vizinhos.
+    Seu tamanho é conhecido como largura da caixa de margem, e altura da caixa de margem.
+        Para especificar os lados da margem, escrevemos:
+        Margin size
+            margin-top: 4px; (margem superior)
+            margin-bottom: 1px; (margem inferior)
+            margin-left: 5px; (margem esquerda)
+            margin-right: 2px; (margem direita)
+
+    CSS shorthand properties
+        Padding: 4px 2px 1px 5px;
+        Border-width: 2px 3px 1px 4px;
+        Margin: 1px 2px 4px 5px;
+
+---------Document flow - block vs inline - fluxo de documentos - bloco vs embutido
+A maneira normal dos navegadores da Web de calcular a posição dos elementos html na tela é chamada de fluxo de documento.
+        Por padrão, quase todos os elementos html são organizados em uma das duas categorias, elementos block or inline
+Block
+    Elemento de nível de blobck ocupará toda a largura horizontal de seu elemento pai e a altura vertical de seu conteúdo. Cada elemento de nível de bloco terá uma nova linha antes e depois.
+        Portanto, vários elementos de nível de block serão empilhados uns sobre os outros como uma pilha de caixas. 
+
+inline
+    Os elementos inline ocupam apenas a largura e a altura de seu conteúdo.
+    Eles não aparecerem um uma nova linha, dai o nome inline.
+
+*Prática feita dentro da pasta block or inline
+
+---------Alignment basics - noções básicas de alinhamento
+
+Alinhamento de texto
+    Alinhar texto dentro de um elemento HTML é muito simples. use a propriedade CSS text-align. No exemplo a seguir:
+    p {
+        text-align: center;
+    }
+    Também é possível utilizar left, right, center e justify
+        Justify espalha o texto para que cada linha do texto tenha a mesma largura
+        O texto padrão é esquerda para linhaguens esquerda e direito como o english
+
+HTML element Center Alignment
+    Para centralizar o alinhamento de um elemento, defina uma largura no elemento e empurre suas margens para fora para preencher o espaço disponível restante do elemento pai como na seguinte estrutura HTML:
+    <div class="parent">
+        <div class="child">
+        </div>
+    </div>
+
+    Elemento pai para ter uma borda vermelha para visualizar o espaço que ele ocupa
+    CSS:
+    .parent {
+        border: 4px solid red;
+    }
+
+    O  elemento filho terá uma largura igual a 50% do elemento pai.
+    Com um preenchimento de 20 pixels. Observe que  o preenchimento: 20px  é a abreviação para definir o preenchimento superior, inferior, esquerdo e direito para 20px. 
+    Para visualizar o espaço que ocupa, defina a borda como verde:
+    CSS:
+    .child {
+        width: 50px;
+        padding: 20px;
+        border: 4px solid green;
+    }
+
+    Para alinhar o elemento ao centro, defina sua  propriedade margin como auto. 
+    O automático informará ao navegador para calcular a margem automaticamente com base no espaço disponível.
+    CSS:
+    .child {
+        width: 50%;
+        padding: 20px;
+        border: 4px solid green;
+        margin: auto;
+    }
+    Quando se trata imagem, você precisa mudar o elemento para block,exemplo:
+    <div class="parent">
+        <img src="photo.png" class="child">
+    <div>
+
+    CSS:
+    .child {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+
+    Para ser mais preciso, no CSS você pode definir apenas as margens esquerda e direita como automaticas. IAsso permite que você defina as margens superior e inferior para valores específicos, se necessário:
+    CSS:
+    .child {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+Elemento HTML alinhamento esquerda/direita
+    As duas maneiras mais comuns de alinhar elementos à esquerda e à direita são usar a propriedade float e a propriedade position
+
+    A propriedade float define a posição de um elemento em relação ao conteúdo de texto dentro de um elemento pai. O texto será quebrado ao redor do elemento.
+    <div class="pai">
+    <img src="photo.png" class="shild">Lorem haha haha haha
+    <div>
+
+    CSS:
+    .shild {
+        float: right;
+    }
+
+--------Tarefa de programação: Estilizando uma página
+Pasta tarefa_estilizando_uma_pagina
+
+
+Additional resources
+Learn more
+Here is a list of resources that may be helpful as you continue your learning journey.
+
+CSS Reference (Mozilla)
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+HTML and CSS: Design and build websites by Jon Duckett
+
+https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/
+
+CSS Definitive Guide  by Eric Meyer  
+
+https://www.amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195/
 
 
