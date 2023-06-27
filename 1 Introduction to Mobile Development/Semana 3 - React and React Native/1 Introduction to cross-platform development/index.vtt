@@ -2,3 +2,105 @@ React and React Native
 
 --------------Introduction to cross-platform development
 
+What is cross-platform mobile development?
+    Lembre-se de que o desenvolvimento de plataforma cruzada produz um único aplicativo que pode ser implantado ou usado em vários sistemas operacionais, como iOS, Android ou Windows.
+
+A nova preferência por navegar na web em dispositivos móveis levou ao desenvolvimento de sites compatíveis com dispositivos móveis.
+    Time consuming
+    Expensive
+        Ter dois sites separados significava que era demorado e caro produzir conteúdo baseado na web.
+
+Então, em 2017, os resultados dos mecanismos de pesquisa começaram a priorizar sites compatíveis com dispositivos móveis. Isso era conhecido como indexação mobile-first e levou ao desenvolvimento de práticas recomendadas para design mobile first.
+
+Mobile-friedly websites
+    A indexação móvel primeiro causou o rápido desenvolvimento de novas tecnologias para garantir que o conteúdo para desktop fosse facilmente acessível em um dispositivo móvel e isso levou ao desenvolvimento de sites responsivos.
+
+Screen Size
+    Site responsivo pode alterar seu layout dependendo do tamanho da tela em que está sendo exibido.
+
+Automatic adjustments
+    O contato do site pode se ajustar automaticamente com base no tamanho da tela ou orientação da visualização do dispositivo nele.
+
+Memory = Processing power
+    No entanto, os desenvolvedores de sites responsivos também tiveram que lider com as limitações dos dispositivos móveis em termos de memória e poder de processamento.
+
+Mesmo tentando realizar todos esses procedimentos para um site se tornar responsivo, muitas das vezes acontecia o problema do site demonstrar uma visualização diferente em cada dispositivo. Por exemplo, uma visualização no iOS e outra no Android.
+
+Lengthy development > Costly
+    Então as equipes tinha que trabalhar em várias bases diferente de código para construirem uma mesma visualização em todas as plataformas, gerando mais custo e também aumentando o tempo de desenvolvimento.
+
+Aplicativo da Web progressivo ou PWA
+    Permite uma maior integração com o dispositivo
+    Os PWSA podem ser instalados em vários tipos de dispositivos e podem acessar a maioria dos recursos integrados do dispositivo.
+-No entanto, os PWAs ainda usam tecnologias da Web e exigem que o mecanismo do navegador seja executado.
+
+Então outra solução é o desenvolvimento de aplicativos multiplataforma.
+    Cross-platform development
+    Build apps > Multiple OS
+    Como o React Native
+        Lembre-se de que o React é uma biblioteca JavaScript usada principalmente para criar sites e interfaces de usuário.
+
+O React, combinado com o uso da estrutura React Native, permite o desenvolvimento de aplicativos multiplataforma.
+    Single codebase
+
+Os aplicativos podem acessar o hardware do dispositivo, bem como usar elementos de IU do sistema operacional nativos ou integrados. Esse tipo de desenvolvimento de software permite que a experiencia do usuário do app seja mantida independentemente da plataforma utilizada.
+
+--------------Other mobile app development approaches
+
+Existem várias outras abordagens e frameworks para desenvolvimento de aplicativos mobile.
+
+Cross-platform
+    Frameowrks existentes no mercado, como Flutter e React Native.
+
+Prós do desenvolvimento multiplataforma
+    Tempo de desenvolivmento
+        Se você quiser ir ao mercado rapidamente, a plataforma cruzada geralmente é a opção preferida para a maioria dos desenvolvedores. Com essa abordagem, os desenvolvedores podem criar aplicativos para várias plataformas com uma única base de código, o que reduzirá significamente o tempo e o custo de desenvolvimento.
+
+    Custo de desenvolvimento
+        Criar uma equipe para montar um aplicativo para cada plataforma disponível no mercado pode ser extremamente caro. Este método permite que você reduza os custos tanto quanto possível.
+
+    Manuntenção de código
+        O uso de uma única base de código reduzirá significamente o tempo eo custo de manuntenção do código. Depois que os aplicativos forem lançados no mercado, a manuntenção da base de código para vários aplicativos pode ser assustadora.
+
+Desenvolvimento de aplicativos nativos
+    Alguns dos existentes no mercado, são Kotlin para Android e Swift para iOS.
+
+    Melhor Performance
+        Os aplicativos criados usando uma linguagem nativa são criados e otimizados para uma plataforma especifíca e isso resulta em um desempenho mais rápido. Os aplicativos nativos são muito rápidos e responsivos porque são desenvolvidos para uma plataforma específica e são compilados perfeitamente usando a linguagem de programação nativa e APIs da plataforma.
+
+    Acesso aos recursos do sistema operacional do dispositivo
+        Ter controle total dos recursos do dispositivo é essencial, especialmente se você quiser que seu aplicativo ofereça uma experiência perfeita aos seus usários. Com o desenvolvimento nativo, seu aplicativo pode acessar diretamente o hardware do dispositivo, como GPS, câmera, microfone e muito mais.
+
+--------------Prós e contras do desenvolvimento de aplicativos multiplataforma
+
+Prós
+    -Apenas uma linguagem para aprender e poder criar vários aplicativos
+    -Redução de custos do projeto
+    -Publicação do aplicativo ocorre de maneira mais rápida
+    -As correções de bugs para o código só precisam acontecer uma vez.
+    -Market exposure - markenting mais barato
+        Single marketing campaign
+        One unified release date
+        Reach all users at once
+
+Desvantagens
+    -Um aplicativo criado para várias plataformas pode significar a exclusão de alguns recursos específicos da plataforma que um aplicativo nativo poderia aproveitar, porque uma base de código comum deve ser usada.
+    -O uso de recursos avançados pode afetar negativamente a duração da bateria e outros recursos do sistema.
+    -A integração com configurações, preferências, armazenamento e notificações locais específicas podem levar a uma experiencia de usuário de qualidade inferior em cada plataforma.
+
+-------------What is and emulator? O que é um emulador?
+    -Aqui um emulador é uma peça de hardware ou software que permite que um sistema de computador imite outro
+
+    -Os emuladores móveis usaram o hardware de computador existente para replicar o ambiente necessário para executar iOS ou Android.
+
+    -O emulador roda um pouco mais lento se comparado com o verdadeiro nativo.
+
+Tanto que é uma boa prática para os desenvolvedores testar aplicativos no ambiente emulado e em dispositivos físicos sempre que possível.]
+
+    Android Studio (Android)
+    XCode (iOS)
+    Apptize.io (Online)
+
+
+
+
