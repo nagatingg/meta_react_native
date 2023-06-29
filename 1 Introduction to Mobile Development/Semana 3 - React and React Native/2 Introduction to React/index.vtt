@@ -2,8 +2,245 @@ React and React Native
 
 --------------Introduction to React
 
+--------------Static and dynamic content - Conteúdo estático e dinâmico
+
+    Conteúdo estático são arquivos que o servidor transfere assim que são armazenados no servidor web, como vídeos e imagens.
+
+    -O conteúdo dinâmico, é gerado quando a solicitação HTTP é feita (HTTP request).
+    -O conteúdo pode ser gerado com base na entrada de um usuário ou, quando você       visita um site de notícias, pode ser baseado na data atual.
+    -O que realmente acontece é que o servidor web se comunica com outro tipo de servidor, chamado de servidor de aplicativos ou back-end.
+    -O servidor de aplicativos gera o conteúdo dinâmico que o servidor da web envia de volta ao navegador do usuário.
+
+Exemplos:
+    Digamos, por exemplo, que você queira assistir a um vídeo em um site
+        clique no botão de REPRODUZIR e uma solicitação é enviada ao servidor da web.
+            O servidor web responde enviando o arquivo para o navegador
+
+    Quando você faz login neste curso
+        O servidor da web se comunica com um servidor de aplicativos para verificar se você está realmente matriculado
+            O servidor de aplicativos confirma sua inscrição e especifica qual conteúdo deve ser exibido especificamente para ser perfil
+                Os servidores de aplicativos executam um processamento mais complexo do que os servidores da web
+                    Eles precisam executar a lógica do aplicativo, comunicar-se com o banco de dados e verificar as permissões.
+
+Para melhorar a performance, diferentes servidores de aplicativos têm finalidades específicas.
+
+No design de sites, o conteúdo dinâmico geralmente é gerado de onde?
+    O servidor de aplicativos gera o conteúdo dinâmico que o servidor Web envia de volta ao navegador do usuário. 
+
+Os servidores de aplicativos geralmente têm uma capacidade limitada em quantas solicitações podem processar por segundo.
+    Aqui que o servidor da Web pode ajudar.
+        Os servidores da web usam um processo chamado cache em vez de gerar dinamicamente para cada solicitação.
+            Cache significa que o servidor da web mantém uma cópia do conteúdo dinâmico.
+                Assim, o conteúdo sendo solicitado novamente, o servidor da Web poderá enviar imediamente essa versão em cache, em vez de passar a solicitação novamente para o servidor de aplicativos.
+                    Na primeira solicitação de conteúdo dinâmico, o servidor web verifica se o conteúdo existe no cache. Caso não exista, o conteúdo é solicitado ao servidor de aplicação e armazenado no cache.
+                        O servidor web então envia de volta o conteúdo dinâmico para o navegador.
+                            Nas solicitações subsequentes, o servidor da Web envia imediamente o conteúdo armazenado no cache.
+    Isso reduz a quantidade de conteúdo dinâmico que o servidor de aplicativos precisa gerar
+    Então, após um  período de tempo ou com a próxima interação do usuário, o servidor Web atualiza o cache com o conteúdo mais recente.
+
+----------------Single page applications - Página única de aplicação
+
+O que exatamente é um SPA?
+
+Site tradicional
+    Antes do advento das estruturas JavaScript modernas, a maioria dos sites era implementada como aplicativos de várias páginas. Mas isso torna os aplicativos tradicionais intensivos em recursos para os servidores da Web, porque enviar páginas da Web inteiras para cada solicitação consome largura de banda excessiva e usa tempo de CPU para gerar páginas dinãmicas. 
+
+SPAs   
+    É chamado de página única, mas isso não significa que seu site tenha apenas uma página de conteúdo.
+        O que isso significa é que há apenas uma página HTML que é enviada do servidor para o navegador, mas essa página atualizará seu conteúdo conforme os usuários interagem com seu site. 
+            Um SPA permite que o usuário interaja com o site sem que o aplicativo precisa baixar novas páginas da Web inteiras. Em vez disso, ele reescreve a página da Web atual á medida que o usuário interage com ela.
+
+    O resultado é uma experiência de navegação mais rápida e responsiva à entrada do usuário
+        Quando o usuário navega para o aplicativo da web no navegador, o servidor da web retorna os recursos necessários para executar o aplicativo.
+
+    Um SPA tem duas abordagens para fornecer o código e recursos.
+        A primeira é chamada de agrupamento
+        A segunda é conhecida como carrregamento lento ou divisão de código.
+
+    Com empacotamento quando o navegador solicita o aplicativo, o servidor retorna e carrega todo o HTML, CSS e JavaScript necessários imediamente. 
+
+    Com carregamento lento, o navegador solicita o aplicativo e o servidor retorna apenas o HTML, CSS e JavaScript mínimos necessários para carregar o aplicativo.
+        Recursos adicionais são baixados conforme necessário. Exemplo: quando um usuário navega em uma seção específica do aplicativo.
+
+A escolha depende do tamanho, complexidade e requisitos de largura de banda do aplicativos.
+
+    Com a abordagem de empacotamento, se seu aplicativo for complexo e tiver muitos recursos, seus pacotes ficarão muito grandes e levarão muito tempo para serem baixados.
+        Tendo um site mais lento do que um aplicativo da Web tradicional.
+
+--------------What is React? - O que é o React?
+O react está focado em trabalhar com componentes, o que simplifica a construção de interfaces de usuário funcionais na web e em dispositivos móveis.
+    E, como o React é uma das bibliotecas JavaScript mais populares, é importante que você explique quais são seus propositos e descreva como seus componentes funcionam juntos.
+
+Disponível desde 2013, o React é uma biblioteca de código aberto com uma comunidade de colaboradores principais e empresas que a mantêm.
+    Os desenvolvedores usam o React para desenvolvedor aplicativos de página única e você também pode desenvolvedor aplicativos móveis com o React Native.
+
+Ao desenvolve um aplicativo, você pode optar por usar o React para desenvolver a interface do usuário.
+    Mas construir um aplicativo requer mais do que isso.
+        Você também deve considerar a navegação e como o aplicativo solicitará dados de um servidor web.
+            Portanto, o React é usado em conjunto com outras bibliotecas JavaScript durante o desenvolvimento.
+                
+Mas o que torna o React tão útil é que ele permite que os desenvolvedores escrevam menos código para criar funcionalidades.
+    +Isso, por sua vez, facilita a manuntenção do código a longo prazo e simplifica os testes
+
+Componentes React
+    O conceito-chave por trás do React é que ele permite definir componentes que podem ser combinados para criar um aplicativo da web.
+        Um componentes é basicamente uma pequena parte da interface do usuário, como um repordutor de música ou uma galeria de fotos.
+            Com isso você pode desenvolver e testar partes de seu aplicativo isoladamente e também permite que você reutilize componentes em várias seções do aplicativo.
+                Exemplo: User icon component > Criar um componente de ícone de usuário que exbie uma versão de uma foto de perfil toda vez que é chamado, dessa forma, pode ser reutilizado durante várias vezes.
+
+   Outros componentes para o React
+    Video player componentes 
+    Map componentes
 
 
+---------Estudo de caso: Por que os engenheiros do Facebook criaram o React?
+    Benedict Hobart, engenheiro de front-end da Meta
+
+    Há uma meta organizacional inteira construindo o React, mais de 100 pessoas.
+
+    Era necessário muito código imperativo para articular como a interface do usuário everia responder aos eventos do usuário.
+        Onde o React foi único que eles pegaram nossas visões e fizeram dele uma função pura de estado.
+            Acho que esse foi o problema fundamental que torna o React útil, porque é baseado em componentes.
+                Isso permite que você defina suas funções de uma maneira fácil de raciocinar e entender o que acontecerá quando determinados eventos ocorrerem no sistema.
+
+Quais problemas o React resolveu?
+    O tipo de aplicativo que você escreveria como resultado disso tornou-se mais fácil de raciocinar versus coisas causadas por efeitos solaterais que acontecem em qualquer lugar que podem levar a bugs em qualquer lugar.
+        O React fez com que essa interface do usuário fosse orientada por essa entrada, o que simplificou muito as coisas.
+
+How did React change software development?
+    Houve um grande impulso para tecnologias de código aberto em geral. Acho que o impulso geral em torno das tecnologias de código aberto é retribuir altruisticamente aos desenvolvedores em todo mundo. Que estão inventado essas tecnologias e também para obter suporte delas.
+
+---------How React works - Como funciona o React?
+
+Sempre que o DOM do navegador é atualizado, ele faz com que o navegador recalcule a página. No entanto, mesmo assim alguns site carregam rapidamente, como eles fazem?
+
+Como o React resolve o problema computando o seu próprio DOM virtual.
+
+Um componente de React > elemento HTML
+    Tem um relacionamento de um para um com um elemento HTML, que é exibido na página da web.
+        Mas como o React acompanha quais elementos HTML precisam ser atualizados?
+            É aqui que o DOM virtual do React entra em ação.
+
+    Quando o React constrói sua árvore de componentes, ele constrói sua própria cúpula na memória chamada de DOM virtual.
+        O DOM virtual é uma representação do DOM do navegador que é mantido na memória.
+            O React usa esse DOM virtual para atualizar o DOM do navegador, somente quando necessário.
+                Isso garente que seu aplicativo seja rápido e responsivo à entrada do usuário.
+
+    O React verifica se os componentes HTML no DOM virtual correspondem ao DOM do navegador.
+        Se for necessária uma alteração, a cúpula do navegador é atualizada.
+            Se nada mudou, nenhuma atualização é executada.
+                Esse processo chama reconciliação
+
+    Indique o processo correto que o React usa para garantir que seu aplicativo seja rápido e responda à entrada do usuário:
+        O React atualiza o DOM virtual e o compara com a versão anterior do DOM virtual. Se tiver ocorrido uma alteração, somente esse elemento será atualizado no DOM do navegador. As alterações no DOM do navegador fazem com que a página da Web exibida seja alterada.
 
 
+----------DOM virtual
+
+    O React cria uma representação do Document Object Model ou DOM do navegador na memória chamada DOM virtual. À medida que os componentes são atualizados, o React verifica se o código HTML do componente no DOM virtual corresponde ao DOM do navegador. Se uma alteração for necessária, o DOM do navegador será atualizado. Se nada tiver mudado, nenhuma atualização será executada.
+
+Como você sabe, isso é chamado  de processo de reconciliação e pode ser dividido nas seguintes etapas:
+
+Passo 1: O DOM virtual é atualizado.
+
+Etapa 2: O DOM virtual  é comparado com a versão anterior do DOM virtual e verifica quais elementos foram alterados.
+
+Passo 3: Os elementos alterados são atualizados no DOM do navegador.
+
+Etapa 4: A página da Web exibida é atualizada para corresponder ao DOM do navegador.
+
+Como atualizar o DOM do navegador pode ser uma operação lenta, esse processo ajuda a reduzir o número de atualizações para o DOM do navegador, atualizando apenas quando necessário.
+
+Mas mesmo com esse processo, se muitos elementos são atualizados por um evento, empurrar a atualização para o DOM do navegador ainda pode ser caro e causar desempenho lento no aplicativo Web.
+
+A equipe do React investiu muitos anos de pesquisa para resolver esse problema. O resultado dessa pesquisa é o que é conhecido como Arquitetura de Fibra React.
+
+A arquitetura de fibra permite que o React renderize incrementalmente a página da Web. O que isso significa é que, em vez de atualizar imediatamente o DOM do navegador com todas as alterações do DOM virtual, o React pode espalhar a atualização ao longo do tempo. Mas o que significa "ao longo do tempo"?
+
+Imagine uma página web muito longa no navegador da web. Se o usuário rolar para a parte inferior, a parte superior da página da Web não estará mais visível. Em seguida, o usuário clica em um botão na parte inferior da página da Web que atualiza algum texto na parte superior da página da Web.
+
+Mas o topo da página não está visível. Portanto, por que atualizá-lo imediatamente?
+
+Talvez haja texto exibido atualmente na parte inferior da página que também é atualizado quando o botão é clicado. Isso não seria uma prioridade maior para atualizar do que o texto não visível?
+
+Este é o princípio da Arquitetura de Fibra React. O React pode otimizar quando e onde ocorrerem atualizações no DOM do navegador para melhorar significativamente o desempenho do aplicativo e a capacidade de resposta à entrada do usuário. Pense nisso como um sistema prioritário. As alterações de prioridade mais alta, os elementos visíveis para o usuário, são atualizadas primeiro. Enquanto a prioridade mais baixa é alterada, os elementos não exibidos no momento são atualizados posteriormente.
+
+Embora seja improvável que você mesmo interaja com o DOM virtual e a Arquitetura de Fibra, é bom saber o que está acontecendo se ocorrerem problemas durante o desenvolvimento de seu aplicativo Web.
+
+Há muitas ferramentas disponíveis para ajudá-lo a investigar como o React está processando sua página da Web. O plugin oficial do navegador web React Developer Tools desenvolvido pela Meta será uma das principais ferramentas em sua caixa de ferramentas de desenvolvedor. Então, se você tiver que olhar mais profundamente para o código, você terá a caixa de ferramentas certa disponível para ajudá-lo
+
+------------Hierarquia de componentes
+    Todo aplicativo React contém pelo menos um componentes, ocomponentes raiz ou o componente do aplicativo.
+        Os componentes são adicionados ao componente do aplicativo para criar uma estrutura em árvore de componentes que compõem o aplicativo.
+
+Como funciona a hierarquia em um BLOG
+    Normalmente, há um título , um menu e uma barra de pesquisa.
+        Você também costuma ter uma postagem de blog em destaque que é exibida maior do que a postagem de blog anterior a baixo dela.
+            Agora vamos descompactar a hierarquia de componentes
+
+    Na raiz da hierarquia de componentes, você tem o componente APP, ele é a página inteira.
+        O componente app tem componentes filhos, como o componente Navbar para a barra de navegação e o componente Page.
+            O componente Navbar contém o título do blog, link de navegação e juntamente com o componente de pesquisa.
+            O componente de página contém três componentes, o componente de recurso principal e duas instâncias de um componente de recurso pequeno.
+                O componente de recurso principal exibe um resumo de blog sobre uma postagem de blog específica.
+                No componente de pequeno recurso, há um resumo do blog e um componente de miniatura para exibir uma imagem associada à postagem do blog.
+                (Observe que o componente de recurso pequeno é usado duas vezes)
+                Isso porque você pode reutilizar os componentes no React
+
+-------------Bibliotecas React e complementares
+
+O React é uma biblioteca e não uma estrutura. Isso significa que você geralmente usará outras bibliotecas JavaScript com ele para criar seu aplicativo. Nesta leitura, você será brevemente apresentado a algumas bibliotecas JavaScript comumente usadas com o React.
+
+Lodash
+https://lodash.com/
+
+Como desenvolvedor, há muita lógica que você normalmente escreve em aplicativos. Por exemplo, talvez seja necessário classificar uma lista de itens ou arredondar um número, como 3,14 para 3. O Lodash fornece lógica comum, como essas, como uma biblioteca de utilitários para economizar seu tempo como desenvolvedor.
+
+Other Javascript libraries: Lodash
+Luxon
+https://moment.github.io/luxon/#/
+
+Você trabalhará com datas e horários com frequência como desenvolvedor. Pense em exibir uma lista de pedidos e quando eles foram feitos ou exibir uma agenda de calendário para um evento. Datas e horários estão por toda parte.
+
+Luxon ajuda você a trabalhar com datas e horas, fornecendo funções para manipulá-los e exibi-los. Por exemplo, pense em como as datas são formatadas em diferentes países. Nos Estados Unidos o formato é  Mês Dia Ano  , mas na Europa é Dia Mês Ano. Esta é uma área onde a Luxon pode ajudá-lo a exibir a data no formato local do usuário.
+
+Other Javascript libraries: Luxon
+Redux
+https://redux.js.org/
+
+Ao criar um aplicativo Web, você precisará acompanhar seu estado. Pense em quando você faz compras online. O aplicativo Web rastreia itens atualmente em seu carrinho de compras. Quando você remove um item do carrinho, o aplicativo precisa atualizar o que é exibido na tela. É aqui que entra a Redux. Ele ajuda você a gerenciar o estado do aplicativo e até mesmo tem recursos avançados, como desfazer e refazer.
+
+Other Javascript libraries: Redux
+Axios
+https://axios-http.com/
+
+Como desenvolvedor, você se comunicará com APIs por HTTP com frequência. A biblioteca Axios ajuda a simplificar o envio de solicitações HTTP e o processamento da resposta. Ele também fornece recursos avançados que permitem cancelar solicitações e alterar dados recebidos do servidor Web antes que seu aplicativo use os dados.
+
+Other Javascript libraries: Axios 
+Jest
+https://jestjs.io/
+
+Jest uma boa prática escrever testes automatizados para seu código como desenvolvedor profissional. A biblioteca jest ajuda você a fazer isso e funciona com muitas bibliotecas e estruturas. Ele também fornece utilitários de relatório, como fornecer informações sobre quanto do seu código é testado por seus testes automatizados.
+
+Other Javascript libraries: Jest 
+
+-----------Recursos adicionais
+Saiba mais Aqui está uma lista de recursos que podem ser úteis à medida que você continua sua jornada de aprendizado.
+
+Site Oficial do React
+https://reactjs.org/
+
+Escolhendo entre aplicativos Web tradicionais e aplicativos de página única (Microsoft)
+
+https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/choose-between-traditional-web-and-single-page-apps
+
+Código fonte do React (Github)
+
+https://github.com/facebook/react
+
+Introdução ao React.js 
+
+O vídeo original gravado no Facebook em 2013.
+
+https://youtu.be/XxVg_s8xAms
 
