@@ -44,5 +44,18 @@ React Native > Common code base > iOS and Android apps
     Os desenvolvedores do React Native têm um ditado com React Native, uma equipe pode manter duas plataformas e compartilhar tecnologia comum, React.
 
 -------------Why did Meta create React Native? Porque a Meta criou o React Native?
+    O React Native é uma estrutura que pode potencializar experi~encias em várias plataformas. Você pode aprender a linguagem, a estrutura, as ferramentas e pode criar um aplicativo iOS e um aplicativo Android ou um aplicativo de realidade virtual e até plataformas potencialmente futuras que ainda não existem.
+
+    Eric Hartzog - Software Engineer at Meta
+
+    Começou como um hackathon
+        Um bloco de tempo em que um desenvolvedor pode experimentar uma ideia que pode não dar certo.
+
+    "Ei, o Facebook criou o framework React e está sendo um grande sucesso na web, vamos ver se podemos usar isso para criar algo para iOS e Android"
+        Eles o criaram, eles o experimentaram. Funcionou, foi ótimo.
+            No final, o Facebook decidiu dedicar uma equipe completa ao React Native e seguir por esse caminho.
+
+    2015 - Decisão de abrir o React Native, como tecnologia de código aberto
+
     
 
