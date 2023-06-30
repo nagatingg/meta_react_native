@@ -2,8 +2,46 @@ React and React Native
 
 --------------Introduction to React Native
 
+    Em vez de criar duas aplicações diferentes do mesmo aplicativo, construimos apenas 1 base de código para serem utilizadas em ambas as plataformas (iOS and Android).
+
+    2013 - React Native hackathon
+    Component Browser
+    -Você precisava envolvê-lo em um navegador de componentes no dispositivo móvel usando ferramentas e softwares específicos de terceiros.
+        Additional tools
+        -Embora isso funcionasse, tentar emular a aparência do sistema operacional nativo ainda exigia diferentes componentes e tecnologias.
+            Native look and feel
+            -No final, a experiência do usuário simplesmente não era a mesma de usar um aplicativo desenvolvido especificamente para o sistema operacional daquele dispositivo móvel.
+
+    Native development > Develop for a specific platform
+    O termo desenvolvimento nativo refere-se à criação de aplicativos especificamente para uma única plataforma.
+
+    Portanto, este projeto ambicioso visa alcançar esse desenvolvimento móvel nativo usando os mesmo recursos de desenvolvimento web do React.js
+
+React.js > Develop Single Page Applications (SPAs)
+    A biblioteca React.js estava ganhando enorme popularidade no mundo do desenvolvimento web, especialmente para aplicativos de página única.
 
 
+Mobile app
+    Se você queria criar um aplicativo móvel, precisava de equipes de desenvolvimento para criá-lo para os dois principais sistemas operacionais, iOS e Android.
+        As equipes precisavam de dois conjuntos de habilidades diferentes, ambientes de desenvolvimento, sistemas operacionais, linguagens de programação e elementos de interface do usuário
+        
+React Native > Common code base > iOS and Android apps
+    One team, one app > Works on both platform > Built-in components and UI
+        Ele permite que uma equipe crie um aplicativo que funcionará perfeitamente em ambas as plataformas usando os componentes integrados ou específicos da plataforma e os elementos da interface do usuário.
+
+    Use native components
+        React Native permite que os desenvolvedores usem as plataformas móveis incorporadas ou componentes nativos, como a câmera, enquanto usam a mesma linguagem de programação.
+
+    App development > iOS Team and Android Team
+        A equipe agora pode trabalhar no mesmo ambiente de desenvolvimento e compartilhar os componentes da plataforma enquanto acessa uma base código compartilhada.
+
+    OS Updates
+        Se o sistema operacional de um dispositivo móvel for atualizado, isso não será um problema. O aplicativo está usando os componentes nativos que também acabaram de ser atualizados.
+
+        Native development > React
+            Mais especificamente, um framework JavaScript que combina as melhores partes do desenvolvimento Nativo com o React.
+
+    Os desenvolvedores do React Native têm um ditado com React Native, uma equipe pode manter duas plataformas e compartilhar tecnologia comum, React.
 
 
 
