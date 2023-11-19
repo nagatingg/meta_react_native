@@ -2,21 +2,297 @@ Introduction to JavaScript
 
 ---------------Bem-vindo à programação
 
+Role of programming
+
+Instructions via programming language
+
+Role of JavaScript
+
+-Computer program
+Um programa de computador é apenas uma série de instruções baseadas em algumas regras
+    Essas regras dizem ao computador o que fazer e em quais circustancias fazer
+
+-Programação
+    Programação é simplesmente o processo de escrever as etapas que um computador precisa executar
+
+-Linguagem de programação
+    É como se fosse uma ponte que usamos para facilitar a comunicação entre computadores e pessoas
+
+-RAM
+    Para que um computador entenda uma linguagem de programação, ele precisa salvá-la em algum lugar em sua memória de acesso aleatório.
+
+-Binary
+    Representado por uma série de zeros e uns. Também guarda memoria. Uma representação da linguagem de máquina.
+
+-CPU
+    Pode compreender esses sinais elétricos binários e se atualizar adequadamente.
+
+-Linguagem BAIXO nível - Linguagem de Máquina - 0 e 1
+    Conhecida como baixo nível porque está mais próxima de ser compreendida pela CPU de um computador
+
+-Linguagem ALTO nível - JavaScript
+    Precisam ser interpretadas e convertidas em código binário com o qual uma CPU poderá trabalhar.
+
+-------------- Porque JavaScript?
+
+JavaScript é uma linguagem que cria interatividade em páginas da web.
+
+Webpage interactivity
+    Usando JavaScript a atualização em tempo ocorre tanto do lado do cliente
+
+Interactive maps / Client-side form validation
+    Mapas interativos e validação de formulários do lado do cliente
+
+Atualmente possuem alguns concorrentes do JavaScript, como: VBScript / TypeScript
+    Mas até mesmo o TypeScript é compilado em JavaScript para que os navegadores possam entendê-lo.
+
+-JavaScript porque tão popular?
+    única linguagem  que nos permite interagir diretamente com nossas páginas da web de forma dinâmica no cliente
+    Compatibilidade com versões anteriores
+    O javaScript é usado em quase todos os sites que existem
+    Ele é usado tanto no lado do front-end como back-end.
+    Linguagem de programação acessível, comunidade grande
 
 
+-------------Programação em JavaScript
+
+Biblioteca chamada jQuery, nos anos 2000, foi muito importante para resolver o problema de incompatibilidade.
+
+React - 2011
+    Resolveu muitos problemas da criação, atualização e manuntenção de sites complexos
+
+Posteriormente, surgiram outras ideias no mercado, como:
+    Knockout - Backbone - Angular - Ember - Vue - Alpine
+
+Código legado - chamamos código antigos desenvolvidios em jQuery
+
+------------Escrevendo o primeiro código em JavaSccript
+
+No JavaScript, o ponto e vírgula - o caractere;- tem uma finalidade semelhante: é usado para delimitar claramente partes do código de outras partes do código.
+
+--------------Variáveis
+
+JavaScript structure
+JavaScript program
+
+------------Exercícios
+
+Tarefas
+Declare uma nova variável chamada petDog e dê a ela o nome Rex.
+
+Declare uma nova variável chamada petCat e dê a ela o nome Pepper.
+
+Console.log a variável petDog.
+
+Console.log a variável petCat.
+
+Console.log o texto "My pet dog's name is: " e a variável petDog.
+
+Console.log o texto "My pet cat's name is: " e a variável petCat.
+
+Declare outra variável e nomeie-a como catSound. Atribua a ela a cadeia de caracteres "purr".
+
+Declare outra variável e dê a ela o nome de dogSound. Atribua a ela a cadeia de caracteres "woof".
+
+Console.log a variável petDog, depois a cadeia de caracteres "says", depois a variável dogSound.
+
+Console.log a variável petCat, depois a cadeia de caracteres "says", depois a variável catSound.
+
+Reatribua o valor armazenado em catSound à cadeia de caracteres "meow".
+
+Console.log a variável petCat, depois a cadeia de caracteres "now says" e, em seguida, a variável catSound
+
+var petDog = "Rex"; // Task 1 solution
+var petCat = "Pepper"; // Task 2 solution
+console.log(petDog); // Task 3 solution
+console.log(petCat); // Task 4 solution
+console.log("My pet dog's name is: " + petDog); // Task 5 solution
+console.log("My pet cat's name is: " + petCat); // Task 6 solution
+var catSound = "purr"; // Task 7 solution
+var dogSound = "woof"; // Task 8 solution
+console.log(petCat + "says" + dogSound); // Task 9 solution
+console.log(petCat + "says" + catSound); // Task 10 solution
+catSound = "meow"; // Task 11 solution
+console.log(petCat + "now says" + catSound); // Task 12 solution
+
+---------Tipos de dados
+
+Existem sete tipos de dados primitivos em JavaScript
+    string, number, boolean, null, undefined, biglnt, symbol
+
+string and number
+    Nome da gruitarra e dexcrição como valores de textos > string
+    Preço da guitarra como valor numérico > number
+
+Combinações
+    Number data type
+        Possui um certo limite de combinações, mesmo tendo todas as necessárias
+
+    String data type
+        O tipo de dados de string praticamente tem um número ilimitado de combinações
+
+Titles and descriptions - STRING
+    Agora você sabe que o tipo de dados de cadeia de caracteres é ótimo para armazenar valores como titulos
 	
+Prices - NUMBER
+
+--
+
+Boolean - Ótimo para tomada de decisões
+    True or False
+
+Null    >   Tipo de dados nulo
+
+Undefined > Uma variável que ainda não recebeu valor
+
+Biglnt  > Acomodar uma variedade muito maior de números do que o tipo de dados númericos
+
+Symbol > Identificador exclusivo
+
+--------------Operadores
+
+Operadores matemáticos
+    + | Adição | 2 + 3
+    - | Subtração | 3 -2 
+    / | Divisão | 35/5
+    * | Multiplicação | 3*5
+
+Operadores de comparação
+    > | Número maior que | 3 > 2
+    < | Número menor que | 2 < 3
+    == | Equalidade | 5 == 5
+    != | Não são iguais | 5 != 6
+
+Operadores lógicos
+    && | Duas condições ou mais são verdadeiras | a > 5 && a < 10
+    || | Pelo menos uma das afirmações são verdadeiras | a > 5 || a > 10
+    !  | Retornam um valor falso se o resultado for verdadeiro | !(a>5)
+
+--------Números
+
+    Números inteiros e decimais
+
+10**2 / 10 elevado a 2
+
+9%8
+1  / Sobra doa conta
+
+--------Strings
+
+    Tipos de string no geral, como já vimos antes, alguns exemplos
+
+-------Booleanos
+
+    Não existe talvés, apenas TRUE or FALSE
+
+Operador de igualdade estritia > ===
+    Verifica o valor e o tipo, mais preciso
+
+--------Operadores adicionais
+
+Operador lógico AND:&&
+    Ooperador lógico AND é usado, por exemplo, para confirmar se várias comparações retornarão verdadeiro.
+    Retornatrue se ambos os valores à sua direita e à sua esquerda forem avaliados comotrue
+    Ele retornafalse em todas as outras instâncias
+    console.log(true && true)retornará:true
+    console.log(true && false)retornará:false
+    console.log(false && true)retornará:false
+    console.log(false && false)retornará:false
+
+Operador lógico OR:||
+    Ele é usado quando o senhor deseja verificar se pelo menos uma das comparações dadas é avaliada como true.
+    O operador lógico OR sempre retornarátrue, exceto quando ambos os lados forem avaliados comofalse. Em outras palavras, para que o operador lógico OR retornefalse, os resultados de ambas as comparaçõesdevem ser falsos.
+    console.log(true || true)terá como resultado:true
+    console.log(true || false)produzirá:true
+    console.log(false || true)terá como resultado:true
+    console.log(false || false)produzirá:false
+
+Operador lógico NOT:!
+    O senhor pode pensar no operador! como um interruptor, que inverte o valor booleano avaliado detrue parafalse e defalse paratrue.
 
 
+O operador de módulo:%
+    O operador de módulo é outro operador matemático em JavaScript. Ele retorna o resto da divisão.
+    Para demonstrar como ele funciona, imagine que um pequeno restaurante com 4 cadeiras por mesa e um total de 5 mesas receba, de repente, 22 clientes.
+    Quantos convidados não poderão se sentar no restaurante?
+    console.log(22 % 5); // 2
 
 
+O operador de igualdade: ==
+    O operador de igualdade verifica se dois valores são iguais.
+    Por exemplo, essa comparação retorna true: 5 == 5. De fato, é verdade que 5 é igual a 5.
+    Além disso, mesmo que um dos valores comparados seja do tipo número e o outro seja do tipo string, o valor retornado ainda é true: 5 == "5". 
 
+O operador de igualdade estrita: ===
+    O operador de igualdade estrita compara tanto os valores quanto os tipos de dados.
+    Com o operador de igualdade estrita, a comparação 5 === 5 ainda retorna true. 
+    Os valores em cada lado do operador de igualdade estrita têm o mesmo valor e o mesmo tipo. Entretanto, a comparação de 5 == "5" agora retorna false, porque os valores são iguais, mas o tipo de dados é diferente.
 
+O operador de desigualdade: !=
+    O operador de desigualdade verifica se dois valores não são iguais, mas não verifica a diferença de tipos.
+    Por exemplo, 5 != "5" retorna falso, pois é falso afirmar que o número 5 não é igual ao número 5, mesmo que esse outro número seja do tipo de dados string.
+    5 != 5 // false
+    5 != 6 // true
 
+O operador de desigualdade estrita: !==
+    Para que o operador de desigualdade estrita retorne false, os valores comparados devem ter o mesmo valor e o mesmo tipo de dados. 
+    Por exemplo, 5 !== 5 retorna false porque é falso dizer que o número 5 não tem o mesmo valor e o mesmo tipo de dados que outro número 5.
+    console.log(5 !== "5") // true
+    console.log(5 !== "5") // false
 
+O operador de atribuição de adição:+=
+    O operador de atribuição de adição é usado quando se deseja acumular os valores armazenados em uma variável.
+    Modelo Padrão:
+        var mon = 1;
+        var tue = 2;
+        var wed = 1;
+        var thu = 2;
+        var fri = 3;
+        console.log(mon + tue + wed + thu + fri); // 9
+    
+    Utilizando o método de atribuição:
+        var overtime = 1;
+        overtime += 2;
+        overtime += 1;
+        overtime += 2;
+        overtime += 3;
+        console.log(overtime); // 9
 
+O operador de atribuição de concatenação:+=(é o mesmo que o anterior - mais sobre isso depois)
+    A sintaxe desse operador é exatamente a mesma do operador de atribuição de adição. A diferença está no tipo de dados usado:
+        var longString = "";
+        longString += "Once";
+        longString += " upon";
+        longString += " a";
+        longString += " time";
+        longString += "...";
+        console.log(longString); // "Once upon a time..."
 
+-----Recursos adicionais
 
+Expressões e operadores do Mozilla Developer Network
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
 
+Precedência e associatividade do operador da Mozilla Developer Network
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+Valores primitivos do JavaScript
+    https://developer.mozilla.org/en-US/docs/Glossary/Primitive
+
+Especificação ECMA262
+    https://tc39.es/ecma262/
+
+site oficial do jQuery
+    https://jquery.com/
+
+Site oficial do React
+    https://reactjs.org/
+
+Pesquisa de desenvolvedores do StackOverflow sobre as tecnologias mais populares de 2021
+    https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies
+
+Emojis
+    http://unicode.org/emoji/charts/full-emoji-list.html#1f600
 
 
 
