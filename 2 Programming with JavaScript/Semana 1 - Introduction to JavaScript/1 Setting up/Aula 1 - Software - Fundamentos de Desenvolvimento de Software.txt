@@ -2,7 +2,200 @@ Introduction to JavaScript
 
 ---------------Setting up
 
+Javascript começou sendo usado no fornt-end.
+Mas hoje você pode aplicar também no back-end, desenvovledor aplicações mobile
 
+O curso envolve
+
+Web development . JavaScript > Version Control
+
+---------------Como o JavaScript é usado na vida real
+
+Murtadha Al-Tameemi - Software Engineer at Meta
+
+Contando sobre a importância do JavaScript no dia a dia.
+
+JavaScript é utilizado em várias coisas do nosso dia a dia que não percebemos, como a cafeteira, geladeira, etc
+
+-O que torna o JavaScript tão popular?
+    A única linguagem usada no desenvolvimento web
+
+-What makes JavaScript unique? Uma das coisas únicas do JavaScript?
+    Ele pode ser usado tanto no front-end, como no back-end
+    Mais fácil de aprender se comparado com outras linguagens.
+
+-What is your advice for learning JavaScript? 
+    Se tiver dificuldades, continue estudando que de acordo com o tempo, você começará a entender perfeitamente.
+
+---------------O que o senhor espera aprender?
+
+Módulo 1: Introdução ao JavaScript
+
+Neste módulo, o senhor será apresentado ao JavaScript. O senhor aprenderá por que o JavaScript é tão essencial para o desenvolvimento de software. E terá uma visão geral de como escrever código JavaScript dentro do navegador. Além disso, o senhor conhecerá os operadores mais comuns, bem como as instruções condicionais e os loops.
+
+Após concluir este módulo, o senhor será capaz de:
+
+Explicar a importância do JavaScript no desenvolvimento de software
+
+Demonstrar como escrever código JavaScript dentro do navegador
+
+Demonstrar como escrever código JavaScript básico
+
+Listar operadores comuns, instruções condicionais e loops
+
+Demonstrar como usar variáveis e enviar seus valores para o console
+
+-
+
+Módulo 2: Os blocos de construção de um programa
+
+Aqui o senhor aprenderá a usar objetos, matrizes e funções. Além disso, conhecerá os métodos internos mais comuns e a diferença entre strings indefinidas, nulas e vazias. E o senhor explorará o tratamento de erros e a programação defensiva.
+
+Após concluir este módulo, o senhor será capaz de:
+
+Criar e usar objetos, matrizes e funções
+
+Listar alguns métodos internos comuns em objetos internos
+
+Descrever o tratamento de bugs e erros usando try, catch, throw e programação defensiva
+
+Explicar a diferença entre strings indefinidas, nulas e vazias  
+
+Demonstrar como escrever código básico usando arrays, objetos e funções
+
+-
+
+Módulo 3: Paradigmas de programação
+
+Este módulo trata da programação funcional e do paradigma de programação orientada a objetos. O senhor aprenderá o que é escopo em JavaScript. O senhor explorará as diferenças entre var, let e const. E aprenderá a usar classes e herança na programação orientada a objetos. Além disso, o senhor explorará como usar o JavaScript para escrever usando recursos modernos como spread e rest.  O senhor criará códigos que podem manipular o DOM e lidar com eventos. E usará o JSON em JavaScript.
+
+Após concluir este módulo, o senhor será capaz de:
+
+Delinear os princípios da programação funcional e do paradigma de programação orientada a objetos
+
+Descrever como o escopo funciona no JavaScript
+
+Listar as diferenças entre var, let e const
+
+Usar classes e herança na OOP em JavaScript
+
+Escrever código JavaScript usando recursos mais modernos, como spread, rest, strings de modelo e módulos
+
+Criar código que manipule o DOM e trate de eventos
+
+Usar JSON em JavaScript
+
+-            
+
+Módulo 4: Testes e compatibilidade
+
+Aqui, o senhor aprenderá sobre o Node.js e o npm. E explorará como instalar pacotes npm e como trabalhar com package.json. Além disso, aprenderá sobre testes em JavaScript e codificará um teste de unidade simples no Jest.
+
+Após concluir este módulo, o senhor será capaz de:
+
+Descrever o Node.js e o npm
+
+Explicar como instalar pacotes npm
+
+Descrever como trabalhar com package.json
+
+Explicar o processo de teste em JavaScript
+
+Listar os três tipos mais comuns de teste
+
+Demonstrar como codificar um teste de unidade simples no Jest
+
+-      
+
+Módulo 5: Avaliação com notas
+
+No módulo final, o senhor aprenderá sobre a avaliação graduada. Depois de concluir as unidades individuais deste módulo, o senhor sintetizará as habilidades adquiridas no curso para criar o código do "Little lemon receipt maker". 
+
+O senhor também terá a oportunidade de refletir sobre o conteúdo do curso e o caminho de aprendizado que tem pela frente.    
+
+------------------ Como se tornar um bom programador
+
+Seja persistente
+Ter sucesso em seus esforços de carreira não é fácil. Felizmente, também não é muito difícil. Considere esse novo empreendimento de aprender a programar como parte de sua vida cotidiana.
+
+Faça disso uma rotina, tanto quanto possível. Esperamos que funcione assim:
+
+O senhor acorda,
+
+
+O senhor escova os dentes,
+
+
+O senhor faz algumas tarefas,
+
+
+E então o senhor escreve e aprende a programar.
+
+
+Obviamente, há coisas como obrigações escolares, ou seu trabalho diário, ou outros lugares onde o senhor precisa estar e coisas que precisa fazer.
+
+Entretanto, se o senhor não programar regularmente, de preferência diariamente, seu progresso será mais lento. Tente reservar algum tempo para codificar e aprender de forma consistente todos os dias. A persistência é fundamental.
+
+Comece a criar aplicativos simples hoje mesmo
+Não espere até que o senhor "aprenda o suficiente". Sempre há mais para aprender, e é melhor começar com qualquer tipo de projeto simples agora mesmo.
+
+O simples fato de pegar o código dessa especialização e mexer nele fará maravilhas para sua confiança e para a velocidade com que o senhor adquire novos conhecimentos.
+
+Além disso, quanto mais praticar, mais o senhor reterá o que aprendeu.
+
+Ter seus próprios projetos que podem ser mostrados a outras pessoas, não importa se são pequenos ou simples, mostra um histórico e dedicação. Isso é algo que pode impressionar seu futuro empregador, portanto, comece hoje mesmo.
+
+Crie uma conta no GitHub
+Já que estamos falando de projetos pessoais, vá até o
+GitHub
+ e crie seu perfil de desenvolvedor imediatamente. É essencial ter uma conta lá, pois o senhor pode manter todos os seus projetos em um único local que pode ser acessado de qualquer computador.
+
+O senhor quase pode pensar na sua conta do GitHub como um poder cerebral adicional. Não importa há quanto tempo, tudo em que você trabalhou permanecerá lá, esperando que você dê uma olhada e se familiarize novamente.
+
+Programa em pares
+Tente encontrar alguém do seu nível ou talvez com um pouco mais de conhecimento do que o senhor e peça a essa pessoa que organize uma sessão de programação em pares recorrente.
+
+Isso funciona muito bem porque ter um parceiro de programação em pares pode acelerar seu aprendizado. O senhor também terá alguém para prestar contas.
+
+Inicie um blog de programação
+A comunicação técnica é importante para os desenvolvedores e, assim como qualquer outra coisa, a prática melhora.
+
+Começar um blog de programação funciona da mesma forma que ter uma conta no GitHub, com alguns benefícios adicionais:
+
+Demonstra ainda mais dedicação - e isso aumenta suas chances de ser contratado
+
+
+Isso o ajuda a experimentar diferentes tecnologias
+
+
+A criação do seu próprio site é um aprendizado prático por si só e mais um projeto para adicionar ao seu currículo
+
+
+Colabore em projetos de código aberto
+Mesmo que esteja apenas começando e esteja realmente lutando para entrar nesse campo, você ainda pode ser um colaborador valioso em projetos de código aberto.
+
+Há muitos projetos de código aberto que demandam todos os tipos de colaboradores.
+
+Até mesmo contribuir para um projeto corrigindo alguns erros de digitação em arquivos de documentação é um bom começo para se envolver mais e se expor.
+
+Obtenha um certificado
+Obter uma certificação é sempre bom. O fato de o senhor estar lendo esta lição agora confirma que está a caminho de receber um certificado de conclusão do Coursera!
+
+Mantenha uma atitude positiva
+Como acontece com qualquer coisa que valha a pena fazer, às vezes o senhor pode se cansar, não entender como algo funciona e talvez até sentir vontade de desistir.
+
+Lembre-se de manter a consistência.
+
+Sempre há altos e baixos na vida, mas às vezes vale a pena pensar em tudo o que o senhor conquistou até agora e usar isso como motivação para continuar.
+
+Nunca pare de aprender
+Sempre há mais para aprender em TI, e isso é provavelmente a melhor coisa sobre isso. É exatamente isso que a torna divertida e oferece uma oportunidade para que cada desenvolvedor avance em sua carreira.
+
+------------- Configuração do VS code
+
+Limpando o terminal
+
+clear
 
 	
 
